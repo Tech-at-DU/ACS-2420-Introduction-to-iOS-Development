@@ -1,4 +1,4 @@
-# MOB 1.2: Introduction to iOS App Development in Swift
+# ACS 2420: Introduction to iOS App Development in Swift
 
 ## Course Description
 
@@ -6,7 +6,7 @@ This course covers mobile application development in iOS using Swift. You will l
 
 ## Prerequisites:
 
-[MOB 1.1](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift)
+[ACS 1410](https://github.com/Tech-at-DU/ACS-1410-Introduction-to-Swift)
 
 ## Course Specifics
 

@@ -8,12 +8,6 @@ This course covers mobile application development in iOS using Swift. You will l
 
 [ACS 1410](https://github.com/Tech-at-DU/ACS-1410-Introduction-to-Swift)
 
-## Course Specifics
-
-**Course Delivery**: Synchronous | 7 weeks | 19 sessions
-
-**Course Credits**: 3 units | 37.5 Contact Hours/Term | 92 Non-Contact Hours/Term | 129.5 Total Hours/Term
-
 ## Learning Outcomes
 
 By the end of the course, you will be able to ...
@@ -25,33 +19,35 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-**Course Dates:** Monday, May 31 – Friday, July 16, 2021 (7 weeks)
+**Course Dates:** Monday, March 21 – Thursday, May 11, 2022
 
-**Class Times:** Monday, Wednesday, Friday at 9:30am–11:15am (19 class sessions)
+**Class Times:** Monday, Wednesday, Friday at 2:30 PM – 4:20 PM
 
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|  - |  Mon, May 31         | **No Class - Memorial Day** |
-|  1 |  Wed, June 2         | [Swift Review]              |
-|  2 |  Fri, June 4         | [Constraints]               |
-|  3 |  Mon, June 7         | [UIStackView]               |
-|  4 |  Wed, June 9         | [UIScrollView]              |
-|  5 |  Fri, June 11        | Lab - Tutorial              |
-|  6 |  Mon, June 14        | [Coding Constraints]        |
-|  7 |  Wed, June 16        | [Lab - Coding Constraints]  |
-|  8 |  Fri, June 18        | **No Class - Juneteenth**   |
-|  9 |  Mon, June 21        | [Custom Views]              |
-| 10 |  Wed, June 23        | Lab - Custom Views          |
-| 11 |  Fri, June 25        | [MVC & Navigation]          |
-| 12 |  Mon, June 28        | [UITabBarController]        |
-| 13 |  Wed, June 30        | [UITableView]               |
-| 14 |  Fri, July 2         | [UICollectionView]          |
-| -  |  Mon, July 5         | **No Class - Independence Day Observed** |
-| 15 |  Wed, July 7         | [Compositional Layouts]     |
-| 16 |  Fri, July 9         | [Animations]                |
-| 17 |  Mon, July 12        | Final lab                   |
-| 18 |  Wed, July 14        | Review Session              |
-| 19 |  Fri, July 16        | Final Exam                  |
+| Class |     Date     |          Topics            |
+|:-----:|:------------:|:--------------------------:|
+|  1 |  Mon, Mar 21    | [Swift Review]             |
+|  2 |  Wed, Mar 23    | [Constraints]              |
+|  3 |  Fri, Mar 25    | Lab                        |
+|  4 |  Mon, Mar 28    | [UIStackView]              |
+|  5 |  Wed, Mar 30    | [UIScrollView]             |
+|  6 |  Fri, April 1   | Lab - Tutorial             |
+|  7 |  Mon, April 4   | [Coding Constraints]       |
+|  8 |  Wed, April 6   | [Lab - Coding Constraints] |
+|  9 |  Fri, April 8   | [Custom Views]             |
+| 10 |  Mon, April 11  | Lab - Custom Views         |
+| 11 |  Wed, April 13  | [MVC & Navigation]         |
+| 12 |  Fri, April 15  | Lab                        |
+| 13 |  Mon, April 18  | [UITabBarController]       |
+| 14 |  Wed, April 20  | [UITableView]              |
+| 15 |  Fri, April 22  | Lab                        |
+| 16 |  Mon, April 25  | [UICollectionView]         |
+| 17 |  Wed, April 27  | [Compositional Layouts]    |
+| 18 |  Fri, April 29  | Final lab                  |
+| 19 |  Mon, May 2     | [Animations]               |
+| 20 |  Wed, May 4     | Review Session             |
+| 21 |  Fri, May 6     | Lab                        |
+| 22 |  Mon, May 9     | Final Project presentation |
+| 23 |  Wed, May 11    | Final Exam                 |
 
 [Swift Review]: Lessons/Swift-Review/README.md
 [Constraints]: Lessons/01-Autolayout/README.md
@@ -74,11 +70,11 @@ By the end of the course, you will be able to ...
 
 |    Assignment       | Type     | Date Assigned |   Due Date   |     Submission Form     |
 |:--------------------|:--------:|--------------:|:------------:|:-----------------------:|
-| [Tip Calculator Tutorial]| Tutorial |  Jun 2  |  Jun 11   | Github link in Gradescope  |
-| ScrollView Practice | In-Class |  Jun 9       |  Jun 14  | Github link in Gradescope  |
-| [Bot Shop]          | Tutorial |  Jun 18      |  Jul 5   | Github link in Gradescope  |
-| Continents Tab Bar  | In-Class |  Jun 23      |  Jun 25  | Github link in Gradescope  |
-| [Course Project]    | Project  |  Jun 14      |  Jul 16  | Github link in Gradescope  |
+| [Tip Calculator Tutorial] | Tutorial |  Mon, Mar 21 |  Mon, April 4   | Github link in Gradescope  |
+| ScrollView Practice | In-Class |  Wed, Mar 30       |  Mon, April 4   | Github link in Gradescope  |
+| [Bot Shop]          | Tutorial |  Fri, April 8      |  Wed, April 27  | Github link in Gradescope  |
+| Continents Tab Bar  | In-Class |  Mon, April 11     |  Wed, April 13  | Github link in Gradescope  |
+| [Course Project]    | Project  |  Mon, April 4      |  Wed, May 11    | Github link in Gradescope  |
 
 [Tip Calculator Tutorial]: https://www.makeschool.com/mediabook/oa/tutorials/build-a-tip-calculator-in-swift-4/intro-tip-calculator/
 [Bot Shop]: https://www.makeschool.com/mediabook/oa/tutorials/bot-shop-ios-app-ihs/overview-of-bot-shop/
@@ -104,9 +100,10 @@ To pass this course you must meet the following requirements:
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
-- [make.sc/library](http://make.sc/library)
+<!-- - [make.sc/library](http://make.sc/library) -->
 - [Inclusive Design](https://developer.apple.com/design/human-interface-guidelines/inclusion/overview)
 
+<!-- 
 ## Make School Course Policies
 
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
@@ -117,4 +114,4 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
 - [Online Learning Tutorial](https://make.sc/online-learning-tutorial) - How to succeed in online learning at Make School
-- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students -->

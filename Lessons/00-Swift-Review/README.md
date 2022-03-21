@@ -61,7 +61,7 @@ How would this exercise look if you used type inference instead of type annotati
 
 //2. Call the function
 
-//3. Write a function that takes in a color (String) and returns "My 
+//3. Write a function that takes in a color (String) and *returns* "My favorite color is _____"
 
 //4. Call the function, can you see the result? 
 

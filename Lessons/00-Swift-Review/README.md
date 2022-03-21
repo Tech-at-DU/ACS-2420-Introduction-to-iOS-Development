@@ -41,7 +41,7 @@ By the end of this lesson, students should be able to:
 
 <!-- > -->
 
-**10 min Break** 😌
+<!-- **10 min Break** 😌 -->
 
 <!-- > -->
 

@@ -49,7 +49,7 @@ By the end of the course, you will be able to ...
 | 22 |  Mon, May 9     | Final Project presentation |
 | 23 |  Wed, May 11    | Final Exam                 |
 
-[Swift Review]: Lessons/Swift-Review/README.md
+[Swift Review]: Lessons/00-Swift-Review/README.md
 [Constraints]: Lessons/01-Autolayout/README.md
 [UIStackView]: Lessons/01-Autolayout/README.md
 [UIScrollView]: Lessons/02-AutoLayout/README.md

@@ -114,7 +114,7 @@ Review:
 
 //5. Add another element to the array
 
-//6. Empty array
+//6. Define an Empty array named veggies of type String
 
 /*
 Look into:

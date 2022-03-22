@@ -96,6 +96,24 @@ Attributes define a feature that can be constrained. In general, this includes t
 
 <!-- > -->
 
+## Concept
+
+The most important thing to keep in mind when using constriants. Autolayout needs to know the position and size of an element to draw it. If these things are not known auto layout will not be able to correctly draw them element. 
+
+What does that mean? Autolayout needs to be able to answer the following: 
+
+- What is the horizontal position?
+- What is the vertical position? 
+- What is the width?
+- What is the height?
+
+There are several ways Autolayout can resolve these things. Here are a few ideas: 
+
+- If you set the left, top, right, and bottom edges Autolayout will be able to caluclate the position and size.
+- If you set the left and right edges the width will be automatically calculated. This also applies to the height. 
+
+<!-- > -->
+
 ## Demo
 
 <!-- <iframe src="https://www.youtube.com/embed/5QRes2qrNIU" data-autoplay  width="700" height="500"></iframe> -->

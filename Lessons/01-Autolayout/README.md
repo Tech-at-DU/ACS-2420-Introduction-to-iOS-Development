@@ -283,7 +283,7 @@ Article to cover Axis, Alignment and Distribution
 
 <!-- v -->
 
-[Video Exploring changes in CHP & CCRP](https://youtu.be/H-BuHXsdzHQ)
+[Video Exploring changes in CHP & CCRP](https://www.youtube.com/watch?v=CEYPA4WuVXg) (Content Hugging Priority and Content Compression Priority)
 
 <!-- > -->
 

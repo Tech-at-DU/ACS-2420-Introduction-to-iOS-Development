@@ -263,7 +263,9 @@ It groups views together and automatically applies constraints for you. As a res
 
 ## Demo
 
-<iframe src="https://www.youtube.com/embed/0ti3y2lQi-8" data-autoplay  width="700" height="500"></iframe>
+<!-- <iframe src="https://www.youtube.com/embed/0ti3y2lQi-8" data-autoplay  width="700" height="500"></iframe> -->
+
+Video: https://www.youtube.com/watch?v=eF9Ut-VpdAI
 
 <aside class="notes">
 Now you try it, do the same as the example. You can use a regular view instead of an image, if you are trying live in class.

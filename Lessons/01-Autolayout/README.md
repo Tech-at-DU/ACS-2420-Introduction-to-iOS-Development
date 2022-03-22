@@ -112,7 +112,7 @@ Attributes define a feature that can be constrained. In general, this includes t
 ## In Class Activity (30 min)
 
 1. Now you try it, do the same layout as the demo.
-2. [Watch this video](https://youtu.be/WsJXbfTdYJI) with common constraints and try them out yourself.
+2. [Watch this video](https://www.youtube.com/watch?v=3y23UebzCYw) with common constraints and try them out yourself.
 3. If you get blocked, ask the instructor to help out 😀
 
 <!-- > -->

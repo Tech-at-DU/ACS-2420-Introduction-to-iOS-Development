@@ -8,6 +8,14 @@ You can complete the following practice in a new Xcode project. Make sure you se
 1. Embed them in a vertical UIStackView.
 1. Pin the stack view 20 points from the superview in all edges (leading, trailing, top, bottom).
 
+You can use these images or use your own: 
+
+![banana](banana.png)
+
+![tangerine](tangerine.png)
+
+![watermellon](watermellon.png)
+
 ### Part 2: StackView Distribution Types
 
 #### Fill

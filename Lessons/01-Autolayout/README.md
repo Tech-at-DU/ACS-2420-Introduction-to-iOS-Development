@@ -4,7 +4,7 @@
 <!-- .slide: class="header" -->
 # Autolayout Pt.1
 
-## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/01-Autolayout/README.html ':ignore')
+## [Slides](https://tech-at-DU.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/01-Autolayout/README.html ':ignore')
 
 <!-- > -->
 
@@ -312,7 +312,7 @@ Defines the size and position of the arranged views. For example, if it's set to
 
 ## In Class Activity
 
-- 30 minutes to finish the layout specified [here](https://github.com/Make-School-Courses/MOB-1.2-Introduction-to-iOS-Development/blob/master/Lessons/01-Autolayout/assignments/assignment2.md)
+- 30 minutes to finish the layout specified [here](./assignments/assignment2.md)
 - 10 minutes to go over questions
 
 <!-- > -->

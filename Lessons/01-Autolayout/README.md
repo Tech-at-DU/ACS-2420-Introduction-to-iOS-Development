@@ -4,7 +4,7 @@
 <!-- .slide: class="header" -->
 # Autolayout Pt.1
 
-## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/01-Autolayout/README.html ':ignore')
+## [Slides](https://tech-at-DU.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/01-Autolayout/README.html ':ignore')
 
 <!-- > -->
 

@@ -26,117 +26,149 @@ By the end of this lesson, students should be able to:
 
 <!-- > -->
 
-## Constraints
+## Making Constraints and views in code 
 
-<!-- > -->
+Followe the steps below to: 
 
-<iframe src="https://www.youtube.com/embed/D4G-QuhpDT4" data-autoplay  width="700" height="500"></iframe>
+- Create a new view with code
+- Add constraints to your view with code
 
-<!-- > -->
+You can follow these steps to create position and constrain any UI element with code!
 
-Layout anchors let us create constraints that are easy to read and in a compact format.
+### Make a new Xcode iOS Project 
 
-```swift
-myView.leadingAnchor.constraint(equalTo: margins.leadingAnchor).isActive = true
-```
+- Make a new project 
+- Choose iOS
+- Choose App
+- Click OK
+- Choose Storyboard
+- Choose Swift
 
-<!-- v -->
+### Make a new view
 
-![components](assets/components.png)
+In ViewController.swift
 
-<!-- v -->
-
-Sample view
-
-```swift
-import PlaygroundSupport
-import UIKit
-
-class ViewController: UIViewController {
-
-    var exampleView: UIView!
-
-    override func loadView() {
-        super.loadView()
-
-        self.view.backgroundColor = UIColor.white
-        exampleView = UIView(frame: .zero)
-        exampleView.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(exampleView)
-
-        exampleView.widthAnchor.constraint(equalToConstant: 80).isActive = true
-        exampleView.heightAnchor.constraint(equalTo: exampleView.widthAnchor, multiplier: 1).isActive = true
-        exampleView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-        exampleView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.exampleView.backgroundColor = .purple
-    }
-}
-
-PlaygroundPage.current.liveView = ViewController()
-```
-
-<aside class = "notes">
-In a mini whiteboard, draw the result of the code. What would be the graphical representation?
-</aside>
-
-<!-- v -->
-
-In this example we have several common constraints we will need to use at some point.
-
-- Setting a fixed width or height
-- Setting an aspect ratio
-- Centering horizontally and vertically
-
-<!-- v -->
-
-Another common constraint that is not shown is setting a proportional width/height.
+Add a new variable to hold the new view. 
 
 ```swift
-exampleView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5)
+var exampleView = UIView(frame: .zero)
 ```
 
-<!-- > -->
+Here you made a new UIView with a frame of zero. That is x = 0, y = 0, width = 0, and height = 0. Imagine a point in the upper left corner. 
 
-## Rect Zero
+Since we are using constraints the size and position of the view won't matter! 
 
-If you noticed in the code snippet, we gave the view a frame with a zero rect.
+**Important!** creating an instance of a view doesn't make it visible! It needs to be added as a subview of a view that is a subview of the root view to be drawn to the screen! 
 
-This is just saying that the rectangle will have its origin and size set to zero.
+You'll do this in the next step. 
 
-`CGRect(x: 0, y: 0, width: 0, height: 0)`
+### Adding a subview
 
-<!-- > -->
+In ViewController.swift's `viewDidLoad` method add the following: 
 
-## translatesAutoresizingMaskIntoConstraints
-
-When using AutoLayout we need this property to be set to false.
-
-If you're using the interface builder, this is done for you.
-
-If you are setting constraints programmatically, you need to remember setting this to false or you'll get an error message of conflicting constraints.
-
-If you want to read more on **why** this conflicting error happens, you can find a very clear explanation [here](http://www.thecodedself.com/autoresizing-masks/).
-
-<!-- > -->
-
-## Activating constraints in a group
-
-To activate them all 😎
-
-```swift
-NSLayoutConstraint.activate([
-  ...
-])
+```Swift
+exampleView.backgroundColor = .systemPink
+exampleView.translatesAutoresizingMaskIntoConstraints = false
+self.view.addSubview(exampleView)
 ```
 
-<aside class="notes">
-"Convenience method that activates each constraint in the contained array, in the same manner as setting active=YES. This is often more efficient than activating each constraint individually." - Apple Docs
-</aside>
+Here you are setting the background color of `exampleView`. Then turning off the automatic constraints that the system will want to create. You can read more about `translatesAutoresizingMaskIntoConstraints` here: 
+
+https://developer.apple.com/documentation/uikit/uiview/1622572-translatesautoresizingmaskintoco
+
+It's important that we turn this off, because we are going to create our own constraints and these would conflict with the auto generated constraints. 
+
+Last, you're adding `exampleView` as a sub view to the viewController's view, which is a UIView, and is the root view! 
+
+Think about the outline view the storyboard editor. The at the top, just under ViewController, is this root view! All other views are children of that view. Here you are adding `exampleView` as a child via code. 
+
+### Add some constraints
+
+Add the following at the bottom of `viewDidLoad`: 
+
+```Swift
+exampleView.widthAnchor.constraint(equalToConstant: 80).isActive = true
+exampleView.heightAnchor.constraint(equalTo: exampleView.widthAnchor, multiplier: 1).isActive = true
+exampleView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+exampleView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+```
+
+Here you added 4 constraints. Here is a description of each: 
+
+- `widthAnchor` sets the width to 80
+- `heightAnchor` sets the height to the height of the `widthAnchor`
+- `centerXAnchor` sets the x position to the horizontal center of the root view. 
+- `centerYAnchor` sets the y position to the center of the vertical center of the root view. 
+
+### Test your work
+
+Save your work, then run the project in the iOS simulator. You shoud see something like: 
+
+![basic-constraints](assets/basic-constraints.png)
+
+Notice the view is pink, the width and height are 80, and it's positioned in the center. 
+
+### Experiments!
+
+Change the width and height constants. Currently the height constant is equal to the width, so changing the width will also change the height. Try it! 
+
+Set the height constant. Change `equalTo` to `equalToConstant` and remove `multiplier: 1`. Try it! 
+
+Rememer when we mentioned `translatesAutoresizingMaskIntoConstraints` and how this created auto generated constraints? Try commenting out the line: 
+
+`exampleView.translatesAutoresizingMaskIntoConstraints = false`
+
+See what happens when you have the auto generated constraints and your dynamically generated constraints. 
+
+You should see an error something: 
+
+```
+Coding-Constraints[78127:6565764] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+    ...
+```
+
+Note the line: **Unable to simultaneously satisfy constraints.**. Sounds about right if there were some other constraints besides the ones that you defined in `viewDidLoad`. 
+
+Read more about this here: https://www.thecodedself.com/autoresizing-masks/
+
+Try one more. Change the width constraint to: 
+
+```Swift
+exampleView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5).isActive = true
+```
+
+Here the width will 50% of the root view. Try it on different devices. 
+
+One more experiment. This you'll make another view and set the frame without constraints. 
+
+The first view was created with a frame of `.zero`. This may look a little string. It's an enum for the `CGRect.zero`. 
+
+Since `UIView(frame: CGRect)` expects a `CGRect` Swift does require that include the type, it's inferred. So either of these works: 
+
+```Swift
+UIView(frame: CGRect.zero)
+UIView(frame: .zero)
+```
+
+To define a `CGRect` you'll define the x, y, width, and height. 
+
+Add the following at the top of the `ViewController` class:
+
+```Swift 
+var newView = UIView(frame: CGRect(x: 0, y: 100, width: 100, height: 100))
+```
+
+This should define a new UIView at x = 0, y = 100, with a width = 100 and a height = 100. 
+
+Next, in `viewDidLoad` set the background color of new view and add it as a subview. 
+
+```Swift
+newView.backgroundColor = .systemTeal
+self.view.addSubview(newView)
+```
+
+Test your work! You should have another view near the top of the screen. This view doesn't have any constraints, except for the auto generated constraints. That means it will not change size or position if the screen changes sizes. 
 
 <!-- > -->
 

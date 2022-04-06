@@ -7,9 +7,17 @@ Continue working on the Bot Shop tutorial.
 - TableView 
   - How does the TableView Work? (Recycling cells)
   - TableViewDataSource
-    - tableView.dequeueReusableCell(withIdentifier:for:indexPath)
     - tableView(:numberOfRowsInSection:section)
+      - index paths rows and sections
   - TableViewDelegate
+    - tableView.dequeueReusableCell(withIdentifier:for:indexPath)
+      - Table View cell and type casting
+    - tableView(:heightForRowAt:indexPath:)
+    - tableView(:UITableView:didSelectRowAt:indexPath:)
+
+## Swift function internal and external parameter names 
+
+https://stevenpcurtis.medium.com/swifts-named-parameters-798174feb2a3
 
 <!-- During this lab you'll be completing an onboarding flow for a Subscription Box app. Watch the following video for instructions.
 

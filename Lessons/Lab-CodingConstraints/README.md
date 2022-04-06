@@ -1,6 +1,17 @@
 # Lab - Coding Constraints
 
-During this lab you'll be completing an onboarding flow for a Subscription Box app. Watch the following video for instructions.
+Continue working on the Bot Shop tutorial. 
+
+## Concepts for Review 
+
+- TableView 
+  - How does the TableView Work? (Recycling cells)
+  - TableViewDataSource
+    - tableView.dequeueReusableCell(withIdentifier:for:indexPath)
+    - tableView(:numberOfRowsInSection:section)
+  - TableViewDelegate
+
+<!-- During this lab you'll be completing an onboarding flow for a Subscription Box app. Watch the following video for instructions.
 
 <iframe src="https://www.youtube.com/embed/fFg3poVPX3I" data-autoplay  width="700" height="500"></iframe>
 
@@ -28,3 +39,4 @@ You can complete the activity following these videos or going to them if you get
 
 - Add a button to the last page only
 - Include a UIPageControl 
+ -->

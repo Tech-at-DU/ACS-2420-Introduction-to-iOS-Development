@@ -55,7 +55,7 @@ By the end of the course, you will be able to ...
 [UIScrollView]: Lessons/02-AutoLayout/README.md
 [Coding Constraints]: Lessons/03-CodingConstraints/README.md
 [Lab - Coding Constraints]: Lessons/Lab-CodingConstraints/README.md
-[Custom Views]: Lessons/04-CustomViews/README.md
+[Inheritance in Swift]: Lessons/04-CustomViews/README.md
 [Lab - Custom Views]: Lessons/04-CustomViews/README.md
 [MVC & Navigation]: Lessons/05-Intro-to-MVC/README.md
 [UITabBarController]: Lessons/09-TabBarController/README.md

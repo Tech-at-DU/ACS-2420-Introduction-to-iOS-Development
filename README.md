@@ -33,8 +33,8 @@ By the end of the course, you will be able to ...
 |  6 |  Fri, April 1   | Lab - Tutorial             |
 |  7 |  Mon, April 4   | [Coding Constraints]       |
 |  8 |  Wed, April 6   | [Lab - Coding Constraints] |
-|  9 |  Fri, April 8   | [Custom Views]             |
-| 10 |  Mon, April 11  | Lab - Custom Views         |
+|  9 |  Fri, April 8   | Bot Shop Lab               |
+| 10 |  Mon, April 11  | [Custom Views]             |
 | 11 |  Wed, April 13  | [MVC & Navigation]         |
 | 12 |  Fri, April 15  | Lab                        |
 | 13 |  Mon, April 18  | [UITabBarController]       |
@@ -76,9 +76,9 @@ By the end of the course, you will be able to ...
 | Continents Tab Bar  | In-Class |  Mon, April 11     |  Wed, April 13  | Github link in Gradescope  |
 | [Course Project]    | Project  |  Mon, April 4      |  Wed, May 11    | Github link in Gradescope  |
 
-[Tip Calculator Tutorial]: https://www.makeschool.com/mediabook/oa/tutorials/build-a-tip-calculator-in-swift-4/intro-tip-calculator/
-[Bot Shop]: https://www.makeschool.com/mediabook/oa/tutorials/bot-shop-ios-app-ihs/overview-of-bot-shop/
-[Habitual App]: https://www.makeschool.com/academy/track/habitual-tutorial---swift-4
+[Tip Calculator Tutorial]: https://github.com/Tech-at-DU/Tip-Calculator-Swift
+[Bot Shop]: https://github.com/Tech-at-DU/BotShop-iOS
+[Habitual App]: https://github.com/Tech-at-DU/Habitual-Swift4
 [Course Project]: Assignments/classProject.md
 
 ### Projects

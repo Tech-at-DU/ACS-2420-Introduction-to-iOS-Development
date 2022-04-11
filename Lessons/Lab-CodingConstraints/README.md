@@ -1,6 +1,25 @@
 # Lab - Coding Constraints
 
-During this lab you'll be completing an onboarding flow for a Subscription Box app. Watch the following video for instructions.
+Continue working on the Bot Shop tutorial. 
+
+## Concepts for Review 
+
+- TableView 
+  - How does the TableView Work? (Recycling cells)
+  - TableViewDataSource
+    - tableView(:numberOfRowsInSection:section)
+      - index paths rows and sections
+  - TableViewDelegate
+    - tableView.dequeueReusableCell(withIdentifier:for:indexPath)
+      - Table View cell and type casting
+    - tableView(:heightForRowAt:indexPath:)
+    - tableView(:UITableView:didSelectRowAt:indexPath:)
+
+## Swift function internal and external parameter names 
+
+https://stevenpcurtis.medium.com/swifts-named-parameters-798174feb2a3
+
+<!-- During this lab you'll be completing an onboarding flow for a Subscription Box app. Watch the following video for instructions.
 
 <iframe src="https://www.youtube.com/embed/fFg3poVPX3I" data-autoplay  width="700" height="500"></iframe>
 
@@ -28,3 +47,4 @@ You can complete the activity following these videos or going to them if you get
 
 - Add a button to the last page only
 - Include a UIPageControl 
+ -->

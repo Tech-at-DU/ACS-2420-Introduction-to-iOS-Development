@@ -4,7 +4,7 @@
 
 <!-- .slide: class="header" -->
 
-# Classes, Inheritence, protocols, and extensions
+# Classes, Inheritance, protocols, and extensions
 
 <!-- ## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/04-CustomViews/README.html ':ignore') -->
 
@@ -12,7 +12,7 @@
 
 ## Agenda
 
-Follow the Class, inheritence, and protocols lab. 
+Follow the Class, inheritance, and protocols lab. 
 
 <!-- > -->
 
@@ -25,7 +25,7 @@ Follow the Class, inheritence, and protocols lab.
 
 <!-- > -->
 
-## Classes Inheritence lab
+## Classes Inheritance lab
 
 Donwload the lab material here:
 

@@ -34,7 +34,7 @@ By the end of the course, you will be able to ...
 |  7 |  Mon, April 4   | [Coding Constraints]       |
 |  8 |  Wed, April 6   | [Lab - Coding Constraints] |
 |  9 |  Fri, April 8   | Bot Shop Lab               |
-| 10 |  Mon, April 11  | [Custom Views]             |
+| 10 |  Mon, April 11  | [Inheritance in Swift]     |
 | 11 |  Wed, April 13  | [MVC & Navigation]         |
 | 12 |  Fri, April 15  | Lab                        |
 | 13 |  Mon, April 18  | [UITabBarController]       |

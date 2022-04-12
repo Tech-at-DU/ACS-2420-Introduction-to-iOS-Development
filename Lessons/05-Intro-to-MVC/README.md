@@ -33,32 +33,35 @@ By the end of this lesson, students should be able to:
 Eventually projects get bigger: more swift files, xib files, assets, etc.
 
 If we are not careful we'll end up with **spaghetti code** 🍝
+
 - without structure
 - difficult to follow
 - hard to maintain
 
 We can avoid this by using an **architectural pattern**.
 
-<!-- v -->
+<!-- > -->
 
 **"An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context"**
 
-<!-- v -->
+<!-- > -->
 
 ## MVC
 
-MVC is Apple's recommended architecture for iOS apps.
+Model View Controller is a software design pattern commonly used for developing user interfaces. 
+
+Apple relies on the MVC architecture for iOS apps.
 
 It's made up of three main objects:
 - **The Model:** Where your data lives.
 - **The View:** What the user sees.
 - **The Controller:** Mediator between the view and the model.
 
-<!-- v -->
+<!-- > -->
 
 <img src="https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png">
 
-<!-- v -->
+<!-- > -->
 
 <img src="https://docs-assets.developer.apple.com/published/4e7c26b6ad/ff7aa08f-4857-44ce-88d5-7dacbef84509.png">
 
@@ -66,7 +69,11 @@ It's made up of three main objects:
 
 ## The model
 
+The model is the data that is displayed and updated. 
+
 - Model Objects (classes, structs, etc)
+- Arrays, lists
+- Variables of any type really
 
 <!-- > -->
 
@@ -78,12 +85,13 @@ Often reusable and doesn't handle any business logic.
 
 How to know if we are doing views right?
 
-Does it interact with the model layer?<br>
-Does it contain any business logic?<br>
-Does it try to do anything not related to UI?<br>
+- Does it interact with the model layer?
+- Does it contain any business logic?
+- Does it try to do anything not related to UI?
 
 <aside class="notes">
-All of these questions normally should be a no, otherwise the view is already doing more than needed. This is a standard check but not necessarily must be true 100% of times.
+All of these questions normally should be a no, otherwise the view is already doing more than needed. 
+This is a standard check but not necessarily must be true 100% of times.
 </aside>
 
 <!-- > -->
@@ -92,7 +100,7 @@ All of these questions normally should be a no, otherwise the view is already do
 
 The least reusable part of an app 😰
 
-What are its responsibilities? It's basically the 🧠 of the app.
+What are its responsibilities? It's basically the brain 🧠 of the app.
 
 - Order of method calls.
 - Refreshing the app.
@@ -104,9 +112,9 @@ What are its responsibilities? It's basically the 🧠 of the app.
 
 ## In Class Activity (10 min)
 
-From what you just learned, draw your own version of the MVC diagram and review the responsibilities for each component.
+Explain how MVC was used in the Tip Calculator. Draw a diagram. 
 
-**Can you explain it using a real world scenario with an analogy?**
+If you can use an analogy to compare the MVC system to something that happens in real life... 
 
 [Jamboard Link](https://jamboard.google.com/d/1jXM7Lj9jtIjddtC-dM9ii3hLQLusiVo4f970mrfwUyE/edit?usp=sharing)
 
@@ -119,7 +127,7 @@ You can take your Subscription Box project and arrange your files with MVC in mi
 1. Right click on the project navigator → New Group
 2. Move files accordingly
 
-<!-- v -->
+<!-- > -->
 
 ![files](assets/fileStructure.png)
 

@@ -149,7 +149,7 @@ Steps to setup a project with without a Storyboard.
 
 1. Delete the storyboard file.
 2. Remove the storyboard name on Project Navigator > Select Project > General > Deployment Info > Main Interface
-3. Remove the Storyboard name from the .plist
+3. Remove the Storyboard name from the .plist (search for main)
 3. Change the SceneDelegate to tell our app what to use as the initial ViewController.
 
 <!-- > -->

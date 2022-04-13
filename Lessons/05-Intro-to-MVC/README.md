@@ -174,6 +174,9 @@ let button: UIButton = {
   }()
 ```
 
+Note! Here you are creating and initializing a new `UIButton` with a 
+closure/anonymous function.
+
 In `viewDidLoad` change the background color, and add the button:
 
 ```Swift
@@ -341,6 +344,59 @@ navigationController?.pushViewController(vc, animated: true)
 
 Here you made a new instance of WorldViewController and pushed 
 it on to the navigation controllers navigation stack. 
+
+### Dissmissing the modal view
+
+Our project's main view controller (ViewController) displays the 
+navigation controller as a modal. A modal is a temporary view that 
+appears in front of another view. 
+
+Remember our structure: 
+
+```
+- ViewController
+    - UINavigationController (displayed as modal)
+        - rootVC (HelloViewController)
+```
+
+The modal view can be dismissed to reveal the original view 
+controller that spawned it. When this happens the Navigation 
+controller and all of the view controllers in it's stack are 
+removed together. 
+
+In ViewController.swift. Add a new method:
+
+```Swift
+@objc func dismissSelf() {
+    dismiss(animated: true)
+}
+```
+
+This will dismiss a modal view that our view controller is displaying. 
+You need to mark this `@objc` becuase you will call this method from 
+a button. 
+
+The navigation controller has a navigation bar and the navigation bar 
+can host "bar button items". These special buttons that live in the 
+navigation bar. They are instances of the `UIBarButtonItem` class. 
+
+In the `didTabButton` method add the following: 
+
+```Swift
+rootVC.navigationItem.rightBarButtonItem = UIBarButtonItem(
+      title: "Dismiss",
+      style: .plain,
+      target: self,
+      action: #selector(dismissSelf))
+```
+
+Here you added a new `UIBarButtonItem` to the Root view controller's 
+navigation item right bar button item. 
+
+The button is an instance of UIBarButtonItem and gets a title, style, target,
+and action. This is ver similar to what you did with the UIButton earlier.
+The difference here is that this a special button that lives in the 
+navigation bar. 
 
 <!-- > -->
 

@@ -98,9 +98,249 @@ What are its responsibilities? It's basically the brains 🧠 of the app.
 
 <!-- > -->
 
+## Other software design patterns
+
+Are there other programming patterns? Yes! there are plenty! People have 
+plenty of books on the subject. 
+
+- https://en.wikipedia.org/wiki/Design_Patterns
+- https://rubygarage.org/blog/swift-design-patterns
+
+New patterns are also being invented. For example Reactive functional 
+programming used by ReactJS. 
+
+## Observer Pattern
+
+The observer pattern appears in many places. The observer pattern is 
+used handle events. Typically this might be handling button taps. It is 
+also used to handle system events like loading data. 
+
+In a nutshell the observer pattern allows you to gave one object register 
+for events that occur at another object. 
+
+<!-- > -->
+
 ## Navigation on iOS
 
+Usually navigation is handled by a `UINavigationController`. The 
+`UINavigationController` class manages a 'stack' of `UIViewControllers`. 
+The 'stack' is an array. The navigation controller displays the 
+view controller at the top of the stack. 
 
+You can manage which view controller is displayed by adding and 
+removing view controllers from the stack. We call this pushing
+and popping. 
+
+When you push a view controller, you are adding it to the top of the
+stack and it should be displayed. 
+
+When you pop a view controller you are removing it from the stack and
+the previous view controller is displayed. 
+
+This about a web browser, it's back button and history. The navigation 
+controller works in the same way. 
+
+The root view controller is the first view controller on the stack. 
+Every navigation controller needs a root view controller or there 
+would be nothing to display!
+
+<!-- > -->
+
+## Try it out
+
+Follow the steps here to build an app that uses MVC, Observer, and 
+navigation controller. 
+
+<!-- > -->
+
+### Make a new XCode Project
+
+Create a new Xcode Project. 
+
+### Edit the View Controller 
+
+Take a look at the default ViewController.swift. 
+
+Define a button at the top of the class:
+
+```Swift
+let button: UIButton = {
+    let button = UIButton()
+    button.setTitle("Go to Next", for: .normal)
+    button.backgroundColor = .darkGray
+    button.setTitleColor(.white, for: .normal)
+    button.frame = CGRect(x: 100, y: 100, width: 200, height: 60)
+    return button
+  }()
+```
+
+In `viewDidLoad` change the background color, and add the button:
+
+```Swift
+view.backgroundColor = .green
+view.addSubview(button)
+```
+
+Handle taps on the button by adding a method that can be called when
+the button is tapped: 
+
+```Swift
+@objc func didTapButton() {
+    print("Button Tapped!")
+}
+```
+
+Note! We need to have @objc here because we want this method available to 
+Objective-C layer of the app. You're writting code in Swift but underneath 
+it all there is a layer of Objective-C code doign some of the work. 
+
+https://www.hackingwithswift.com/example-code/language/what-is-the-objc-attribute
+
+### Use the Observer pattern
+
+Here you will register an object and a method to call when an event occurs. 
+
+The `button` will issue the event and call the `didTapButton` method when 
+the `touchUpInside` event occurs. 
+
+Add the following to `viewDidLoad`:
+
+```Swift
+button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+```
+
+The first parameter `self` is the target. This is object that owns the method
+or "action". 
+
+The "action" is the method to call on. You need to wrap the method 
+name in `#selector()` because it will be called on the Objective-C layer. 
+
+Last, the event that will trigger the action is "touchUpInside". This method 
+occurs when you touch a button then break contact with the screen. 
+
+In summary, you touch the button and lift your finger, the button wants to 
+notify it's observers, it looks for the action at the target. In our 
+example, it looks for `didTapButton` (action) at `self` (target.)
+
+<!-- > -->
+
+### Make a new View controller
+
+Make a new ViewController. You will display this inside of a navigation 
+controller when the button is tapped. 
+
+Create a new Sweift file: HelloViewController.swift
+
+Add the following: 
+
+```Swift
+import UIKit
+
+class HelloViewController: UIViewController {
+  
+  let button: UIButton = {
+    let button = UIButton()
+    button.setTitle("Go to Next", for: .normal)
+    button.backgroundColor = .darkGray
+    button.setTitleColor(.white, for: .normal)
+    button.frame = CGRect(x: 100, y: 100, width: 200, height: 60)
+    return button
+  }()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    title = "Hello"
+    view.backgroundColor = .systemCyan
+    view.addSubview(button)
+    button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+  }
+  
+  @objc func didTapButton() {
+    
+  }
+}
+```
+
+This view controller defines a button and displays that button. 
+
+The title property sets a title that a view controller displays at the top of it's view. 
+
+You also setup an observer to listen for taps at the button. 
+
+### Create a Navigation controller
+
+Back in ViewController. Add the following to `didTapButton`:
+
+```Swift
+let rootVC = HelloViewController()
+let navVC = UINavigationController(rootViewController: rootVC)
+navVC.modalPresentationStyle = .fullScreen
+present(navVC, animated: true)
+```
+
+Here you made a new view controller, which will be displayed in the 
+navigation controller. 
+
+You made a new instance of `UINavigationController`, and set the 
+`rootViewController`. 
+
+Then you set the `modalPresentationStyle` style. This determines how 
+our navigation controller will be displayed, `fullScreen` means it 
+will completely cover it's parent view. 
+
+Last, you present the navigation controller. 
+
+It's important to understand that ViewController is presenting a
+new view that is the navigation controller, and the navigation 
+controller is displaying it's root view controller. 
+
+```
+- ViewController
+    - navVC (UINavigationController)
+        - rootVC (HelloViewController)
+```
+
+Any view controller can display another view controller. If need 
+to navigate between views then we need a navgation controller. 
+
+### Add another view to navigation stack
+
+So far you should have a main view with a button that displays a 
+navigation controller when tapped. The navigation controller 
+displays a single root view. 
+
+In this step you will add a new view to navigation controller and 
+display it. 
+
+Create a new Swift File: WorldViewController.swift
+
+Add the following: 
+
+```Swift
+import UIKit
+
+class WorldViewController: UIViewController {
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    title = "World"
+    view.backgroundColor = .yellow
+  }
+}
+```
+
+This creates a simple view controller with a title and a background color. 
+
+In HelloViewController.swift add the following to the `didTapButton`
+method: 
+
+```Swift
+let vc = WorldViewController()
+navigationController?.pushViewController(vc, animated: true)
+```
+
+Here you made a new instance of WorldViewController and pushed 
+it on to the navigation controllers navigation stack. 
 
 <!-- > -->
 

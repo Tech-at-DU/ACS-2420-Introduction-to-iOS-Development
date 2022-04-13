@@ -4,27 +4,14 @@
 <!-- .slide: class="header" -->
 # Model View Controller
 
-## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/05-Intro-to-MVC/README.html ':ignore')
+<!-- ## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/05-Intro-to-MVC/README.html ':ignore') -->
 
-<!-- > -->
-
-## Agenda
-
-- MVC
-- Organizing our project
-- Working without a storyboard
-- Navigation programmatically
-- Extending our project
 
 <!-- > -->
 
 ## Learning Objectives
 
-By the end of this lesson, students should be able to:
-
-- Describe and use **MVC** in an Xcode project
-- Implement **navigation programmatically**
-- **Send information** between view controllers programmatically
+- Describe MVC
 
 <!-- > -->
 
@@ -39,11 +26,11 @@ If we are not careful we'll end up with **spaghetti code** 🍝
 
 We can avoid this by using an **architectural pattern**.
 
-<!-- v -->
+<!-- > -->
 
 **"An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context"**
 
-<!-- v -->
+<!-- > -->
 
 ## MVC
 
@@ -53,6 +40,56 @@ It's made up of three main objects:
 - **The Model:** Where your data lives.
 - **The View:** What the user sees.
 - **The Controller:** Mediator between the view and the model.
+
+----------------------------
+
+<!-- > -->
+
+<!-- ## Agenda
+
+- MVC
+- Organizing our project
+- Working without a storyboard
+- Navigation programmatically
+- Extending our project -->
+
+<!-- > -->
+
+<!-- ## Learning Objectives
+
+By the end of this lesson, students should be able to:
+
+- Describe and use **MVC** in an Xcode project
+- Implement **navigation programmatically**
+- **Send information** between view controllers programmatically -->
+
+<!-- > -->
+
+<!-- ## Architectural Patterns
+
+Eventually projects get bigger: more swift files, xib files, assets, etc.
+
+If we are not careful we'll end up with **spaghetti code** 🍝
+- without structure
+- difficult to follow
+- hard to maintain
+
+We can avoid this by using an **architectural pattern**. -->
+
+<!-- v -->
+
+<!-- **"An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context"** -->
+
+<!-- v -->
+
+<!-- ## MVC
+
+MVC is Apple's recommended architecture for iOS apps.
+
+It's made up of three main objects:
+- **The Model:** Where your data lives.
+- **The View:** What the user sees.
+- **The Controller:** Mediator between the view and the model. -->
 
 <!-- v -->
 

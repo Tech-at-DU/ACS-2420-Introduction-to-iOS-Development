@@ -1,5 +1,7 @@
 # UICollectionViews
 
+## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/07-CollectionViews/README.html ':ignore')
+
 <!-- > -->
 
 ## Learning Objectives

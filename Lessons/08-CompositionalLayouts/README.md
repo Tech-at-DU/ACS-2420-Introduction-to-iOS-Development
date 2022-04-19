@@ -1,5 +1,7 @@
 # Compositional Layouts
 
+## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/08-CompositionalLayouts/README.html#/10 ':ignore')
+
 <!-- > -->
 
 ## Learning Objectives

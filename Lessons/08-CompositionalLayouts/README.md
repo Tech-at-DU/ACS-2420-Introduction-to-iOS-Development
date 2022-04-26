@@ -49,7 +49,7 @@ With this new API is easier than ever to create any layout you might need.
 
 ## Exploring the project
 
-1. Download this [starter project](https://github.com/amelinagzz/CompositionalLayout)
+1. Download this [starter project](https://github.com/Tech-at-DU/ACS-2420-CompositionalLayout)
 2. Run it, you should see something like this:
 
 ![grid1](assets/grid1.png)

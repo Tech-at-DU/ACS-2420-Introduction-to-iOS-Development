@@ -11,7 +11,30 @@ During the term you'll build the prototype of an app that offers a subscription 
 
 The project will cover most topics of the course and will serve as evidence and practice of your skills with UIKit and iOS development.
 
-### Iteration No. 1 - by Feb 3
+## Project Requirments
+
+- Must use Xcode and Swift
+- Must use a Tab bar controller and at least three tabs
+- Must use a Table View
+- Must use a navigation controller
+- Must use a collection view
+
+- Then I need a description of the subscription box?
+- Subscription tab shows a list of possible descriptions in a collection view.
+- Tapping a subscription shows a detail view for that subscription.
+- Orders tab shows subscriptions you have ordered.
+- Tapping an order should show a details page about the subscription and include a cancel order button.
+- Subscription details should include an order button. Tapping the order button adds a subscription to your orders list.
+- About tab shows a scroll view with information about the service.
+
+**Stretch Goals**
+
+- Use a Scrollview to scroll content. This could be used in the detial screen or about screen. 
+- Use the UIPageViewController for the about page. This will allow you to swipe through views. 
+- Add an on boarding screen using the UIPageViewController. 
+
+
+<!-- ### Iteration No. 1 - by Feb 3
 [15 pts]
 
 - [ ] Create a new Xcode project
@@ -62,7 +85,7 @@ The project will cover most topics of the course and will serve as evidence and 
 ### Iteration No. 7 - by Mar 3
 [5 EXTRA pts]
 
-- [ ] Includes one animation
+- [ ] Includes one animation -->
 
 
 ## Resources
@@ -70,4 +93,3 @@ The project will cover most topics of the course and will serve as evidence and 
 - [Online design](https://scene.zeplin.io/project/5e3b505d29276dd08ba41cc1)
 - [Example - being built with the course](https://github.com/amelinagzz/subscription-box-2021)
 
-**To pass this assignment you need at least 70/100 points total.**

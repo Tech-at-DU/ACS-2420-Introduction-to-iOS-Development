@@ -44,5 +44,6 @@ Create a new view controller. Add a UILabel and UIButton to this view and arrang
 
 You can display this new view as a modal with present view controller or setup a navigation controller. 
 
-You should handle the
+Handle the tap on a cell by showing a new view controller. 
+
 

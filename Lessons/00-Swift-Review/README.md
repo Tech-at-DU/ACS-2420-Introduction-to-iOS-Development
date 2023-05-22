@@ -1,6 +1,6 @@
 # MOB 1.2
 
-## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/00-Swift-Review/README.html ':ignore')
+<!-- ## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/00-Swift-Review/README.html ':ignore') -->
 
 <!-- > -->
 

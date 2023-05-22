@@ -217,3 +217,4 @@ For more practice: [Unwrap App](https://apps.apple.com/us/app/unwrap/id144061137
 ## After class
 
 - [Tip Calculator Tutorial](https://makeschool.org/mediabook/oa/tutorials/build-a-tip-calculator-in-swift-4/intro-tip-calculator/)
+- [OOP RPG](https://github.com/Tech-at-DU/oop-rpg)

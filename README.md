@@ -23,34 +23,37 @@ By the end of the course, you will be able to ...
 
 **Class Times:** Monday, Wednesday, Friday at 2:30 PM – 4:20 PM
 
-| Class |     Date     |          Topics            |
-|:-----:|:------------:|:--------------------------:|
-|  1 |  Mon, Mar 21    | [Swift Review]             |
-|  2 |  Wed, Mar 23    | [Constraints]              |
-|  3 |  Fri, Mar 25    | Lab                        |
-|  4 |  Mon, Mar 28    | [UIStackView]              |
-|  5 |  Wed, Mar 30    | [UIScrollView]             |
-|  6 |  Fri, April 1   | Lab - Tutorial             |
-|  7 |  Mon, April 4   | [Coding Constraints]       |
-|  8 |  Wed, April 6   | [Lab - Coding Constraints] |
-|  9 |  Fri, April 8   | Bot Shop Lab               |
-| 10 |  Mon, April 11  | [Inheritance in Swift]     |
-| 11 |  Wed, April 13  | [MVC & Navigation]         |
-| 12 |  Fri, April 15  | Lab                        |
-| 13 |  Mon, April 18  | [UITabBarController]       |
-| 14 |  Wed, April 20  | [UITableView]              |
-| 15 |  Fri, April 22  | Lab                        |
-| 16 |  Mon, April 25  | [UICollectionView]         |
-| 17 |  Wed, April 27  | [Compositional Layouts]    |
-| 18 |  Fri, April 29  | Final lab                  |
-| 19 |  Mon, May 2     | [Animations]               |
-| 20 |  Wed, May 4     | Review Session             |
-| 21 |  Fri, May 6     | Lab                        |
-| 22 |  Mon, May 9     | Final Project presentation |
-| 23 |  Wed, May 11    | Final Exam                 |
+| Class |     Date     |          Topics            | Assignment |
+|:-----:|:------------:|:--------------------------:|:---:|
+|  1 |  Mon, Mar 21    | [Swift Review]             | RPG OOP    |
+|  2 |  Wed, Mar 23    | [Constraints]              | [Habitual] |
+|  3 |  Fri, Mar 25    | Lab                        | - |
+|  4 |  Mon, Mar 28    | [UIStackView]              | - |
+|  5 |  Wed, Mar 30    | [UIScrollView]             | - |
+|  6 |  Fri, April 1   | Lab - Tutorial             | - |
+|  7 |  Mon, April 4   | [Coding Constraints]       | - |
+|  8 |  Wed, April 6   | [Lab - Coding Constraints] | - |
+|  9 |  Fri, April 8   | Bot Shop Lab               | - |
+| 10 |  Mon, April 11  | [Inheritance in Swift]     | - |
+| 11 |  Wed, April 13  | [MVC & Navigation]         | - |
+| 12 |  Fri, April 15  | Lab                        | - |
+| 13 |  Mon, April 18  | [UITabBarController]       | - |
+| 14 |  Wed, April 20  | [UITableView]              | - |
+| 15 |  Fri, April 22  | Lab                        | - |
+| 16 |  Mon, April 25  | [UICollectionView]         | - |
+| 17 |  Wed, April 27  | [Compositional Layouts]    | - |
+| 18 |  Fri, April 29  | Final lab                  | - |
+| 19 |  Mon, May 2     | [Animations]               | - |
+| 20 |  Wed, May 4     | Review Session             | - |
+| 21 |  Fri, May 6     | Lab                        | - |
+| 22 |  Mon, May 9     | Final Project presentation | - |
+| 23 |  Wed, May 11    | Final Exam                 | - |
 
 [Swift Review]: Lessons/00-Swift-Review/README.md
+
 [Constraints]: Lessons/01-Autolayout/README.md
+[Habitual]: https://github.com/Tech-at-DU/Habitual-Swift4
+
 [UIStackView]: Lessons/01-Autolayout/README.md
 [UIScrollView]: Lessons/02-AutoLayout/README.md
 [Coding Constraints]: Lessons/03-CodingConstraints/README.md

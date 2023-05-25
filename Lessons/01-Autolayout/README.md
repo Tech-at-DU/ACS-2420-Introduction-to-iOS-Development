@@ -111,6 +111,7 @@ There are several ways Autolayout can resolve these things. Here are a few ideas
 
 - If you set the left, top, right, and bottom edges Autolayout will be able to caluclate the position and size.
 - If you set the left and right edges the width will be automatically calculated. This also applies to the height. 
+- If you set the width and height you'll need to set the position. This could be align center. 
 
 <!-- > -->
 

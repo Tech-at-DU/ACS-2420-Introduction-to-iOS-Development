@@ -132,7 +132,7 @@ There are several ways Autolayout can resolve these things. Here are a few ideas
 
 Try and recreate these examples: 
 
-<div style="display:flex;">
+<div style="display: flex; flex-direction: row;">
 
 ![example-1](./assets/example-1.png)
 

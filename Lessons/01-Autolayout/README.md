@@ -162,7 +162,7 @@ Think about the constraints you'll need before creating any constraints. IF you 
 Interface Builder provides four Auto Layout tools in the bottom-right corner of the Editor window. These are the Stack, Align, Pin, and Resolve Auto Layout Issues tools.
 </aside>
 
-<!-- v -->
+<!-- > -->
 
 ## Align Tool
 
@@ -174,7 +174,7 @@ The Align tool lets you quickly align items in your layout. Select the items you
 You typically select two or more views before using the Align tool. However, the Horizontally in Container or Vertically in Container constraints can be added to a single view.
 </aside>
 
-<!-- v -->
+<!-- > -->
 
 ## Pin Tool
 
@@ -225,7 +225,7 @@ Some views have a natural size given their current context. This is called **int
 - A `UIImageView` knows how big it should be based on the image it contains.
 - A `UILabel` knows what size it should be based on the text it contains.
 
-<!-- v -->
+<!-- > -->
 
 ![intrinsic](assets/intrinsicTable.png)
 
@@ -255,7 +255,7 @@ Therefore, it’s easier to stretch a view than it is to shrink it.
 For most controls, this is the desired behavior. For example, you can safely stretch a button larger than its intrinsic content size; however, if you shrink it, its content may become clipped.
 </aside>
 
-<!-- v -->
+<!-- > -->
 
 ## Constraint Priority
 
@@ -293,13 +293,13 @@ Now you try it, do the same as the example. You can use a regular view instead o
 
 ![stackDetails](assets/stackDetails.png)
 
-<!-- v -->
+<!-- > -->
 
 Article to cover Axis, Alignment and Distribution
 
 [Link to Article](https://nshipster.com/uistackview/)
 
-<!-- v -->
+<!-- > -->
 
 [Video Exploring changes in CHP & CCRP](https://www.youtube.com/watch?v=j7kezKCTpJQ) (Content Hugging Priority and Content Compression Resistance Priority)
 
@@ -336,6 +336,8 @@ Defines the size and position of the arranged views. For example, if it's set to
 <!-- > -->
 
 ## After Class
+
+Start working on the [Habitual](https://github.com/Tech-at-DU/Habitual-Swift4)
 
 Read about the type of errors you can encounter while working with constraints.
 

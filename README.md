@@ -52,7 +52,10 @@ By the end of the course, you will be able to ...
 
 
 [Swift Review]: Lessons/00-Swift-Review/README.md
+
 [Constraints]: Lessons/01-Autolayout/README.md
+[Habitual]: https://github.com/Tech-at-DU/Habitual-Swift4
+
 [UIStackView]: Lessons/01-Autolayout/README.md
 [UIScrollView]: Lessons/02-AutoLayout/README.md
 [Coding Constraints]: Lessons/03-CodingConstraints/README.md

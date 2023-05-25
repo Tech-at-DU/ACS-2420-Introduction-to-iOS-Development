@@ -34,7 +34,7 @@ A view that presents data (a list of items) using **rows** arranged in a **singl
 
 `UITableView` is a subclass of `UIScrollView`, this allows users to scroll through the elements in the table in vertical direction.
 
-<!-- v -->
+<!-- > -->
 
 ![tables](assets/tables.gif)
 
@@ -46,7 +46,7 @@ Each individual item of the table is a `UITableViewCell` object.
 
 ![cell](assets/cell.jpg)
 
-<!-- v -->
+<!-- > -->
 
 ### How is a cell created?
 
@@ -62,7 +62,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 
 Every time the method gets called we are creating a new instance of a `UITableViewCell`. If these cells had text and images, loading 1000 of them and allocating memory as we scroll, will make the app very laggy. 😰
 
-<!-- v -->
+<!-- > -->
 
 To solve this problem we can reuse cells with the `dequeueReusableCell(withIdentifier:for:)` method. For this we will need a reuse identifier.
 
@@ -75,7 +75,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 }
 ```
 
-<!-- v -->
+<!-- > -->
 
 ### How does it work?
 
@@ -100,9 +100,17 @@ A table view is made up of sections, each with its own rows. Sections are identi
 Sections have headers that appear at the top of each group and include a title. The footer appears below each group and also has a title. The entire table can also have its own header and footer.
 </aside>
 
-<!-- v -->
+<!-- > -->
 
-## Try this
+## TodoList Tutorial
+
+Continue working on the TodoList tutorial. 
+
+https://github.com/Tech-at-DU/ACS-2420-TodoList
+
+<!-- > -->
+
+## Review TableView 
 
 1. Open your contacts app. Notice how the component to display the contacts is a table.
 1. Can you tell how many sections its has?

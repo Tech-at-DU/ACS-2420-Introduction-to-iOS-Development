@@ -1,6 +1,6 @@
 # MOB 1.2
 
-## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/00-Swift-Review/README.html ':ignore')
+<!-- ## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/00-Swift-Review/README.html ':ignore') -->
 
 <!-- > -->
 
@@ -217,3 +217,4 @@ For more practice: [Unwrap App](https://apps.apple.com/us/app/unwrap/id144061137
 ## After class
 
 - [Tip Calculator Tutorial](https://makeschool.org/mediabook/oa/tutorials/build-a-tip-calculator-in-swift-4/intro-tip-calculator/)
+- [OOP RPG](https://github.com/Tech-at-DU/oop-rpg)

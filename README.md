@@ -23,35 +23,36 @@ By the end of the course, you will be able to ...
 
 **Class Times:** Tuesday, Thursday 9:30 AM to 12:15 PM
 
-| Class |     Date     |          Topics            |
-|:-----:|:------------:|:--------------------------:|
-|  - |  Week 1         | -                          |
-|  1 |  Tue, May 23    | [Swift Review]             |
-|  2 |  Thr, May 25    | [Constraints]              |
-|  - |  Week 2         | -                          |
-|  3 |  Tue, May 30    | [UIStackView]              |
-|  4 |  Thr, Jun  1    | [UIScrollView]             |
-|  - |  Week 3         | -                          |
-|  5 |  Tue, Jun  6    | [Coding Constraints]     * |
-|  6 |  Thr, Jun  8    | [Lab - Coding Constraints] * |
-|  - |  Week 4         | -                          |
-|  7 |  Tue, Jun 13    | [Inheritance in Swift]   * |
-|  8 |  Thr, Jun 15    | [MVC & Navigation]         |
-|  - |  Week 5         | -                          |
-|  9 |  Tue, Jun 20    | [UITabBarController]       |
-| 10 |  Thr, Jun 22    | [UITableView]              |
-|  - |  Week 6         | -                          |
-| 11 |  Tue, Jun 27    | [UICollectionView]         |
-| 12 |  Thr, Jun 29    | [Compositional Layouts]    |
-|  - |  Week 7         | -                          |
-| 13 |  Tue, Jul  4    | [Animations]               |
-| 14 |  Thr, Jul  6    | Final lab                  |
-|  - |  Week 8         | -                          |
-| 15 |  Tue, Jul 11    | Final Assessment           |
-| 16 |  Thr, Jul 13    | Final Presentation         |
+| Class |     Date     |          Topics            | Assignment |
+|:-----:|:------------:|:--------------------------:|:---:|
+|  - |  Week 1         | -                          | - |
+|  1 |  Tue, May 23    | [Swift Review]             | [OOP RPG] |
+|  2 |  Thr, May 25    | [Constraints]              | [Habitual] |
+|  - |  Week 2         | -                          | - |
+|  3 |  Tue, May 30    | [UIStackView]              | - |
+|  4 |  Thr, Jun  1    | [UIScrollView]             | - |
+|  - |  Week 3         | -                          | - |
+|  5 |  Tue, Jun  6    | [Coding Constraints]     * | - |
+|  6 |  Thr, Jun  8    | [Lab - Coding Constraints] * | - |
+|  - |  Week 4         | -                          | - |
+|  7 |  Tue, Jun 13    | [Inheritance in Swift]   * | - |
+|  8 |  Thr, Jun 15    | [MVC & Navigation]         | - |
+|  - |  Week 5         | -                          | - |
+|  9 |  Tue, Jun 20    | [UITabBarController]       | - |
+| 10 |  Thr, Jun 22    | [UITableView]              | - |
+|  - |  Week 6         | -                          | - |
+| 11 |  Tue, Jun 27    | [UICollectionView]         | - |
+| 12 |  Thr, Jun 29    | [Compositional Layouts]    | - |
+|  - |  Week 7         | -                          | - |
+| 13 |  Tue, Jul  4    | [Animations]               | - |
+| 14 |  Thr, Jul  6    | Final lab                  | - |
+|  - |  Week 8         | -                          | - |
+| 15 |  Tue, Jul 11    | Final Assessment           | - |
+| 16 |  Thr, Jul 13    | Final Presentation         | - |
 
 
 [Swift Review]: Lessons/00-Swift-Review/README.md
+[OOP RPG]: https://github.com/Tech-at-DU/oop-rpg
 
 [Constraints]: Lessons/01-Autolayout/README.md
 [Habitual]: https://github.com/Tech-at-DU/Habitual-Swift4

@@ -132,6 +132,7 @@ There are several ways Autolayout can resolve these things. Here are a few ideas
 
 Try and recreate these examples: 
 
+<div style="display:flex;">
 ![example-1](./assets/example-1.png)
 
 ![example-2](./assets/example-2.png)
@@ -139,6 +140,7 @@ Try and recreate these examples:
 ![example-3](./assets/example-3.png)
 
 ![example-4](./assets/example-4.png)
+</div>
 
 Try solving these without using a stack view. These examples are meant to study the pin, width, and height constraints. 
 

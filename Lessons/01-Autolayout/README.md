@@ -98,7 +98,7 @@ Attributes define a feature that can be constrained. In general, this includes t
 
 ## Concept
 
-The most important thing to keep in mind when using constriants. Autolayout needs to know the position and size of an element to draw it. If these things are not known auto layout will not be able to correctly draw them element. 
+The most important thing to keep in mind when using constriants, Autolayout needs to know the position and size of an element to draw it. If these things are not known auto layout will not be able to correctly draw them element. 
 
 What does that mean? Autolayout needs to be able to answer the following: 
 

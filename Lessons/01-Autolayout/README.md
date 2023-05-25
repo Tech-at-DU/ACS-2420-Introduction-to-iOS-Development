@@ -133,6 +133,7 @@ There are several ways Autolayout can resolve these things. Here are a few ideas
 Try and recreate these examples: 
 
 <div style="display:flex;">
+
 ![example-1](./assets/example-1.png)
 
 ![example-2](./assets/example-2.png)

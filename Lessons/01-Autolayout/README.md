@@ -129,6 +129,18 @@ There are several ways Autolayout can resolve these things. Here are a few ideas
 
 ## In Class Activity (30 min)
 
+Try and recreate these examples: 
+
+![example-1](./assets/example-1.png)
+
+![example-2](./assets/example-2.png)
+
+![example-3](./assets/example-3.png)
+
+![example-4](./assets/example-4.png)
+
+Think about the constraints you'll need before creating any constraints. IF you run into trouble delete all of the constraitnts and start over. Removing the constraints and starting from scratch can often be easier than trying to fix existing constraints!
+
 1. Now you try it, do the same layout as the demo.
 2. [Watch this video](https://www.youtube.com/watch?v=3y23UebzCYw) with common constraints and try them out yourself.
 3. If you get blocked, ask the instructor to help out 😀
@@ -262,6 +274,10 @@ It groups views together and automatically applies constraints for you. As a res
 <!-- > -->
 
 ## Demo
+
+- Pin edges - pin a view to the left, top, right, and bottom
+- Equal heights - Use equal heights to create boxes of the same height
+- Multiplier - Adjust the multiplier to make things equal or unequal
 
 <!-- <iframe src="https://www.youtube.com/embed/0ti3y2lQi-8" data-autoplay  width="700" height="500"></iframe> -->
 

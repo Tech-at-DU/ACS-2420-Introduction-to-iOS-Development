@@ -19,35 +19,37 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-**Course Dates:** Monday, March 21 – Thursday, May 11, 2022
+**Course Dates:** May 22 to July 14, 2023
 
-**Class Times:** Monday, Wednesday, Friday at 2:30 PM – 4:20 PM
+**Class Times:** Tuesday, Thursday 9:30 AM to 12:15 PM
 
 | Class |     Date     |          Topics            |
 |:-----:|:------------:|:--------------------------:|
-|  1 |  Mon, Mar 21    | [Swift Review]             |
-|  2 |  Wed, Mar 23    | [Constraints]              |
-|  3 |  Fri, Mar 25    | Lab                        |
-|  4 |  Mon, Mar 28    | [UIStackView]              |
-|  5 |  Wed, Mar 30    | [UIScrollView]             |
-|  6 |  Fri, April 1   | Lab - Tutorial             |
-|  7 |  Mon, April 4   | [Coding Constraints]       |
-|  8 |  Wed, April 6   | [Lab - Coding Constraints] |
-|  9 |  Fri, April 8   | Bot Shop Lab               |
-| 10 |  Mon, April 11  | [Inheritance in Swift]     |
-| 11 |  Wed, April 13  | [MVC & Navigation]         |
-| 12 |  Fri, April 15  | Lab                        |
-| 13 |  Mon, April 18  | [UITabBarController]       |
-| 14 |  Wed, April 20  | [UITableView]              |
-| 15 |  Fri, April 22  | Lab                        |
-| 16 |  Mon, April 25  | [UICollectionView]         |
-| 17 |  Wed, April 27  | [Compositional Layouts]    |
-| 18 |  Fri, April 29  | Final lab                  |
-| 19 |  Mon, May 2     | [Animations]               |
-| 20 |  Wed, May 4     | Review Session             |
-| 21 |  Fri, May 6     | Lab                        |
-| 22 |  Mon, May 9     | Final Project presentation |
-| 23 |  Wed, May 11    | Final Exam                 |
+|  - |  Week 1         | -                          |
+|  1 |  Tue, May 23    | [Swift Review]             |
+|  2 |  Thr, May 25    | [Constraints]              |
+|  - |  Week 2         | -                          |
+|  3 |  Tue, May 30    | [UIStackView]              |
+|  4 |  Thr, Jun  1    | [UIScrollView]             |
+|  - |  Week 3         | -                          |
+|  5 |  Tue, Jun  6    | [Coding Constraints]     * |
+|  6 |  Thr, Jun  8    | [Lab - Coding Constraints] * |
+|  - |  Week 4         | -                          |
+|  7 |  Tue, Jun 13    | [Inheritance in Swift]   * |
+|  8 |  Thr, Jun 15    | [MVC & Navigation]         |
+|  - |  Week 5         | -                          |
+|  9 |  Tue, Jun 20    | [UITabBarController]       |
+| 10 |  Thr, Jun 22    | [UITableView]              |
+|  - |  Week 6         | -                          |
+| 11 |  Tue, Jun 27    | [UICollectionView]         |
+| 12 |  Thr, Jun 29    | [Compositional Layouts]    |
+|  - |  Week 7         | -                          |
+| 13 |  Tue, Jul  4    | [Animations]               |
+| 14 |  Thr, Jul  6    | Final lab                  |
+|  - |  Week 8         | -                          |
+| 15 |  Tue, Jul 11    | Final Assessment           |
+| 16 |  Thr, Jul 13    | Final Presentation         |
+
 
 [Swift Review]: Lessons/00-Swift-Review/README.md
 [Constraints]: Lessons/01-Autolayout/README.md

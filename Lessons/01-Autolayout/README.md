@@ -139,6 +139,8 @@ Try and recreate these examples:
 
 ![example-4](./assets/example-4.png)
 
+Try solving these without using a stack view. These examples are meant to study the pin, width, and height constraints. 
+
 Think about the constraints you'll need before creating any constraints. IF you run into trouble delete all of the constraitnts and start over. Removing the constraints and starting from scratch can often be easier than trying to fix existing constraints!
 
 1. Now you try it, do the same layout as the demo.

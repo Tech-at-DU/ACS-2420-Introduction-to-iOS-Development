@@ -90,6 +90,7 @@ By the end of the course, you will be able to ...
 ### Projects
 
 - [Subscription Box Project](Assignments/classProject.md)
+    - [Login View](Lessons/subscription box-1.md)     
 
 ## Evaluation
 

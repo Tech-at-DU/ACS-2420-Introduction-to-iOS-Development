@@ -74,7 +74,7 @@ struct LoginView: View {
         .resizable()
         .frame(width: 120, height: 120)
       TextField("username", text: $username)
-      TextField("password", text: $password)
+      SecureField("password", text: $password)
     }
   }
 }
@@ -93,6 +93,7 @@ These are used in the two `TextFields`:
 TextField("username", text: $username)
 TextField("password", text: $password)
 ```
+You can use `SecureField` for the password field. This will hide the text that is entered. 
 
 This sets up the text fields. Style them! Follow the guide here: 
 

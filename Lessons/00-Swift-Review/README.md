@@ -1,220 +1,203 @@
-# MOB 1.2
+# ACS 2420 - Introduction to iOS Development
 
-<!-- ## [Slides](https://make-school-courses.github.io/MOB-1.2-Introduction-to-iOS-Development/Slides/00-Swift-Review/README.html ':ignore') -->
+## Lesson 1: Swift Language Foundations
 
-<!-- > -->
+---
 
-## Agenda
+### 🌐 Course Context
 
-- Introduction to the course
-- Swift Review
+Welcome to ACS 2420! This course introduces you to iOS development using Swift and Xcode. You'll learn programming fundamentals, build modern iOS apps using SwiftUI, and gain exposure to UIKit and Storyboards.
 
-<!-- > -->
+In this first lesson, we'll focus on the **Swift language**.
 
-## Learning Objectives
+---
 
-By the end of this lesson, students should be able to:
+## ✅ Learning Objectives
 
-1. Identify the purpose of the course, evaluation criteria and become familiar with navigating the content
-1. Complete the practice problems to review Swift
+By the end of this lesson, you should be able to:
 
-<!-- > -->
+1. Understand the goals and structure of ACS 2420
+2. Write basic Swift code: variables, constants, functions, conditionals, collections
+3. Understand optionals and simple data structures
 
-## MOB 1.2
+---
 
-- 🤓 Course Description
-- 💻 Course Delivery
-- 🧠 Course Learning Outcomes
-- 🗓 Schedule
-- 📓 Assignments & Gradescope
-- 💯 Evaluation
+## 🏠 Course Overview
 
-<!-- > -->
+* 🤔 What you'll build: Tip Calculator, To-Do List, Weather App
+* 📘 Tools: Xcode, Swift, SwiftUI, Simulator
+* 💼 Workflow: Playground (today), then SwiftUI app projects
 
-## Swift Review Pt.1
+---
 
-### Variables and Constants
+## ✨ Swift Fundamentals
 
-```
-//1. Declare a variable named color of type String, use type annotation.
+### 🟦 Variables and Constants
 
-//2. Assign the value of "purple" to color
+#### Example
 
-//3. Change the value to "red"
+> 💡 **Note on Type Inference**: In Swift, the type of a variable can often be inferred from the value you assign to it. This means writing `var x = 10` is typically preferred over `var x: Int = 10`, unless you need to be explicit for clarity or documentation.
 
-//4. Declare a constant named font of type String, use type annotation.
+```swift
+var city: String = "San Francisco"
+city = "Los Angeles"
 
-//5. Assign the value of "Helvetica" to font
-
-//6. Change the value to "Arial"
-
-/*
-What's the difference between var and let?
-How would this exercise look if you used type inference instead of type annotation?
-*/
+let state: String = "California"
+// state = "Nevada" // Error: Cannot change a constant
 ```
 
-### Functions
+#### Challenge Problems
 
-```
-//1. Write a function that takes in a color (String) and prints out "My favorite color is _____"
+1. Declare a variable called `username` and assign it your name.
+2. Declare a constant `birthYear` and set it to your year of birth.
+3. Try reassigning `birthYear`. What happens?
+4. Declare a variable `favoriteColor` using type inference and set it to the string "teal".
+5. Write a comment explaining when to use `var` vs `let`.
 
-//2. Call the function
+---
 
-//3. Write a function that takes in a color (String) and *returns* "My favorite color is _____"
+### 🔧 Functions
 
-//4. Call the function, can you see the result? 
+#### Example
 
-//5. Write a function that takes in a color (String) and a name (String) and returns "_____'s favorite color is _____"
+> 💡 **Note on Parameter Labels**: Swift functions can use both *external* and *internal* parameter names. This improves readability when calling functions. The external name is used when calling the function, and the internal name is used within the function body.
 
-//6. Call the function, can you see the result? 
+```swift
+// external name: for, internal name: person
+func greeting(for person: String) -> String {
+    return "Hello, \(person)!"
+}
 
-/*
-Did you use internal and external parameter names? If not, try it :)
-*/
-```
-
-### Conditionals
-
-```
-//Write a function called "isEven" that takes in a number and returns a boolean to specify if the input is an even number.
-
+print(greeting(for: "Maya"))
 ```
 
+```swift
+func greet(name: String) -> String {
+    return "Hello, \(name)!"
+}
 
-### Optionals
-
-```
-//Declare a variable called "color" of type optional String
-
-//What values can color store?
-//color = "lilac"
-
-
-//How would you print out the value of "color"?
-
-
-/*
-Review:
-- force unwrapping
-- optional binding
-- guard 
-*/
-```
-### Arrays
-
-```
-//1. Define an array called "fruits" and add fruit names.
-
-//2. Print how many elements are stored in the array
-
-//3. Print the second element in the array
-
-//4. Remove the first element in the array
-
-//5. Add another element to the array
-
-//6. Define an Empty array named veggies of type String
-
-/*
-Look into:
-- Creating an empty array
-- Built in methods (like sort)
-*/
+print(greet(name: "Amina"))
 ```
 
+#### Challenge Problems
 
-<!-- > -->
+1. Write a function that takes a name and age, and returns a sentence: "Name is X years old."
+2. Create a function `sayHello\(\)` that takes no parameters and prints the message "Hello, world!".
+3. Write a function that calculates and returns the area of a circle. This function should use external/internal parameter labels. For example: `area(ofCircleWithRadius radius: Double) -> Double`.
+4. Write a function that squares a number.
 
-**10 min Break** 😌
+---
 
-<!-- > -->
+### 🔄 Flow Control: if/else, for-loops, ranges
 
-## Swift Review Pt.2
+#### Example
 
-### Dictionaries
+```swift
+let score = 88
+if score >= 90 {
+    print("Grade: A")
+} else if score >= 80 {
+    print("Grade: B")
+} else {
+    print("Grade: C or below")
+}
 
-```
-//1. Define a dictionary called "fruits", the name of the fruit will be the key and the associated emoji will be the value.
-
-//2. Print how many elements are stored in the dictionary
-
-//3. Print the value of an element in the dictionary.
-
-//4. Remove an element from the dictionary
-
-//5. Add another element to the dictionary
-
-```
-### For loop
-
-```
-//Write a function that takes an Array of Strings as an input and returns a String. The returned String should be all of the items in the input String with a space between each.
-
-/*
-For example:
-let str = arraytoString(array: ["Swift", "is", "fun!"])
-arraytoString(str) // "Swift is fun!"
-*/
-
+for number in 1...5 {
+    print(number)
+}
 ```
 
-### Enums
+#### Challenge Problems
 
-```
-//1. Create an enum to represent the cardinal directions
+1. Write a function that takes a number and returns "Even" or "Odd".
+2. Write a for-loop that prints numbers 10 through 1.
+3. Write a function that takes a temperature in °F and prints a message: "cold" if below 50 °F, "moderate" if 50 – 85 °F, or "hot" if above 85 °F.
+4. Write a function `sum(from:to:)` that takes two integers and returns the sum of all integers in that inclusive range. Example: `sum(from: 1, to: 5) // returns 15`.
 
-//2. Create an instance of the enum and print it to console
+---
 
-//3. Add N, S, E, W as the raw values for each case. Then print the raw 
+### ❓ Optionals
 
-/*
-- Review associated values
-*/
-```
+#### Example
 
-### Structs & Classes
+```swift
+var nickname: String? = nil
+nickname = "Ace"
 
-```
-//1. Create a struct to represent a course at Make School
-/*
-- name
-- instructor
-- track
-- number of students
-- term
-*/
-
-//2. Create an instance of the struct
-
-//3. Create a class to represent a course at Make School
-/*
-- name
-- instructor
-- track
-- number of students
-- term
-*/
-
-//4. Create an instance of the class
-
-/*
-Review value vs reference types.
-*/
+if let name = nickname {
+    print("Nickname: \(name)")
+} else {
+    print("No nickname available")
+}
 ```
 
-<!-- > -->
+#### Challenge Problems
 
-## What we didn't cover today
+1. Declare an optional `petName` and assign it a string.
+2. Print `petName` using force unwrap `!` (be prepared for a runtime crash if `petName` is `nil`).
+3. Print `petName` safely using `if let`.
+4. Use `??` to provide a fallback value.
+5. Write a function `printNickname\(_ nickname: String?\)` that unwraps `nickname` using `guard let` and prints it, or prints "No nickname set" if `nil`.
 
-- Closure syntax
-- OOP
+---
 
-For more practice: [Unwrap App](https://apps.apple.com/us/app/unwrap/id1440611372)
+### 🍏 Arrays
 
-<!-- > -->
+#### Example
 
-## After class
+```swift
+var groceries = ["milk", "eggs", "bread"]
+print(groceries.count)
+print(groceries[1])
+groceries.append("cheese")
+groceries.removeFirst()
+```
 
-- [Tip Calculator Tutorial](https://makeschool.org/mediabook/oa/tutorials/build-a-tip-calculator-in-swift-4/intro-tip-calculator/)
-- [OOP RPG](https://github.com/Tech-at-DU/oop-rpg)
+#### Challenge Problems
+
+1. Create an array of 4 cities you've visited.
+2. Write a function that takes an array of city names and returns the first city as a `String`. If the array is empty, return "No cities".
+3. Add a new city to the array.
+4. Remove the last element.
+5. Sort the array in ascending order and print the result.
+
+---
+
+### 📚 Dictionaries
+
+#### Example
+
+```swift
+var airportCodes = ["SFO": "San Francisco", "LAX": "Los Angeles"]
+print(airportCodes["SFO"] ?? "Unknown")
+airportCodes["JFK"] = "New York"
+airportCodes.removeValue(forKey: "LAX")
+```
+
+#### Challenge Problems
+
+1. Create a dictionary of 3 country codes and names (e.g., "US": "United States", "FR": "France", "JP": "Japan").
+2. Write a function `countryName\(for code: String\)` that looks up a country by its code and returns the matching name, or "Not found".
+3. Add a new country.
+4. Remove a country.
+5. Use a loop to print each key and value on one line in the format `CODE: Country Name`.
+
+---
+
+## 🧪 AI Explorations (Optional)
+
+* Ask ChatGPT: "What are 3 real-world uses of optionals in Swift?"
+* Try generating new array challenges with ChatGPT
+* Debug this code: `let age: Int? = nil; print(age + 1)`
+
+---
+
+## 📍 After Class Resources
+
+* [Apple Swift Guide](https://swift.org/documentation/#the-swift-programming-language)
+* [Unwrap App](https://apps.apple.com/us/app/unwrap/id1440611372)
+* [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui)
+
+## 🕓 Next Time
+
+* SwiftUI Basics: Views, Layouts, and Modifiers

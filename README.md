@@ -27,28 +27,29 @@ By the end of the course, you will be able to ...
 |:-----:|:------------:|:--------------------------:|:---:|
 |  - |  Week 1         | -                          | - |
 |  1 |  Thr, May 22    | [Swift Review]             | [OOP RPG] |
-|  2 |  Tue, May 27    | [Constraints]              | [Habitual] |
 |  - |  Week 2         | -                          | - |
+|  2 |  Tue, May 27    | [Constraints]              | [Habitual] |
 |  3 |  Thr, May 29    | [UIStackView]              | - |
-|  4 |  Tue, Jun  3    | [UIScrollView]             | - |
 |  - |  Week 3         | -                          | - |
+|  4 |  Tue, Jun  3    | [UIScrollView]             | - |
 |  5 |  Thr, Jun  5    | [Coding Constraints]     * | - |
-|  6 |  Tue, Jun 10    | [Lab - Coding Constraints] * | - |
 |  - |  Week 4         | -                          | - |
+|  6 |  Tue, Jun 10    | [Lab - Coding Constraints] * | - |
 |  7 |  Thr, Jun 12    | [Inheritance in Swift]   * | - |
-|  8 |  Tue, Jun 17    | [MVC & Navigation]         | - |
 |  - |  Week 5         | -                          | - |
+|  8 |  Tue, Jun 17    | [MVC & Navigation]         | - |
 |  9 |  Thr, Jun 19    | [UITabBarController]       | - |
-| 10 |  Tue, Jun 24    | [UITableView]              | - |
 |  - |  Week 6         | -                          | - |
+| 10 |  Tue, Jun 24    | [UITableView]              | - |
 | 11 |  Thr, Jun 26    | [UICollectionView]         | - |
-| 12 |  Tue, Jul  1    | [Compositional Layouts]    | - |
 |  - |  Week 7         | -                          | - |
+| 12 |  Tue, Jul  1    | [Compositional Layouts]    | - |
 | 13 |  Thr, Jul  3    | [Animations]               | - |
-| 14 |  Tue, Jul  8    | Final lab                  | - |
 |  - |  Week 8         | -                          | - |
+| 14 |  Tue, Jul  8    | Final lab                  | - |
 | 15 |  Thr, Jul 10    | Final Assessment           | - |
-| 16 |  Thr, Jul 15    | Final Presentation         | - |
+|  - |  Week 9         | -                          | - |
+| 16 |  Tue, Jul 15    | Final Presentation         | - |
 
 
 [Swift Review]: Lessons/00-Swift-Review/README.md

@@ -19,37 +19,36 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-**Course Dates:** May 22 to July 14, 2023
+**Course Dates:** Oct. 20 to Dec. 12, 2025
 
-**Class Times:** Tuesday, Thursday 9:30 AM to 12:15 PM
+**Class Times:** Tuesday, Thursday 1:00 PM to 3:45 PM
 
 | Class |     Date     |          Topics            | Assignment |
 |:-----:|:------------:|:--------------------------:|:---:|
 |  - |  Week 1         | -                          | - |
-|  1 |  Thr, May 22    | [Swift Review]             | [OOP RPG] |
+|  1 |  Tue, Oct 21    | [Swift Review]             | [OOP RPG] |
+|  2 |  Thr, Oct 23    | [Constraints]              | [Habitual] |
 |  - |  Week 2         | -                          | - |
-|  2 |  Tue, May 27    | [Constraints]              | [Habitual] |
-|  3 |  Thr, May 29    | [UIStackView]              | - |
+|  3 |  Tue, Oct 28    | [UIStackView]              | - |
+|  4 |  Thr, Oct 30    | [UIScrollView]             | - |
 |  - |  Week 3         | -                          | - |
-|  4 |  Tue, Jun  3    | [UIScrollView]             | - |
-|  5 |  Thr, Jun  5    | [Coding Constraints]     * | - |
+|  5 |  Tue, Nov  4    | [Coding Constraints]     * | - |
+|  6 |  Thr, Nov  6    | [Lab - Coding Constraints] * | - |
 |  - |  Week 4         | -                          | - |
-|  6 |  Tue, Jun 10    | [Lab - Coding Constraints] * | - |
-|  7 |  Thr, Jun 12    | [Inheritance in Swift]   * | - |
+|  7 |  Tue, Nov 11    | [Inheritance in Swift]   * | - |
+|  8 |  Thr, Nov 13    | [MVC & Navigation]         | - |
 |  - |  Week 5         | -                          | - |
-|  8 |  Tue, Jun 17    | [MVC & Navigation]         | - |
-|  9 |  Thr, Jun 19    | [UITabBarController]       | - |
+|  9 |  Tue, Nov 18    | [UITabBarController]       | - |
+| 10 |  Thr, Nov 20    | [UITableView]              | - |
 |  - |  Week 6         | -                          | - |
-| 10 |  Tue, Jun 24    | [UITableView]              | - |
-| 11 |  Thr, Jun 26    | [UICollectionView]         | - |
+| 11 |  Tue, Nov 25    | [UICollectionView]         | - |
+| 12 |  Thr, Nov 27    | THANKS GIVING              | - |
 |  - |  Week 7         | -                          | - |
-| 12 |  Tue, Jul  1    | [Compositional Layouts]    | - |
-| 13 |  Thr, Jul  3    | [Animations]               | - |
+| 13 |  Tue, Dec  2    | [Compositional Layouts]    | - |
+| 14 |  Thr, Dec  4    | [Animations]               | - |
 |  - |  Week 8         | -                          | - |
-| 14 |  Tue, Jul  8    | Final lab                  | - |
-| 15 |  Thr, Jul 10    | Final Assessment           | - |
-|  - |  Week 9         | -                          | - |
-| 16 |  Tue, Jul 15    | Final Presentation         | - |
+| 15 |  Tue, Dec  9    | Final Assessment           | - |
+| 16 |  Thr, Dec 11    | Final Presentation         | - |
 
 
 [Swift Review]: Lessons/00-Swift-Review/README.md

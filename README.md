@@ -1,22 +1,5 @@
 # ACS 2420: Introduction to iOS App Development in Swift
 
-## Course Description
-
-This course covers mobile application development in iOS using Swift. You will learn how to build iOS applications using AutoLayout, UIKit, and the MVC architecture.
-
-## Prerequisites:
-
-[ACS 1410](https://github.com/Tech-at-DU/ACS-1410-Introduction-to-Swift)
-
-## Learning Outcomes
-
-By the end of the course, you will be able to ...
-
-1. Build an app using UIKit components including: UIViews, UIViewControllers, UITableViews, UICollectionViews and custom classes.
-1. Apply AutoLayout to achieve a good distribution of elements in different screen sizes and orientations.
-1. Implement MVC and understand the separation of concerns for each component.
-1. Pass information between view controllers & handle navigation.
-
 ## Schedule
 
 **Course Dates:** Oct. 20 to Dec. 12, 2025
@@ -24,31 +7,31 @@ By the end of the course, you will be able to ...
 **Class Times:** Tuesday, Thursday 1:00 PM to 3:45 PM
 
 | Class |     Date     |          Topics            | Assignment | Due |
-|:-----:|:------------:|:--------------------------:|:---:|
-|  - |  **Week 1**     | -                          | - |
-|  1 |  Tue, Oct 21    |              |  |
-|  2 |  Thr, Oct 23    |               |  |
-|  - |  **Week 2**     | -                          | - |
-|  3 |  Tue, Oct 28    |               | - |
-|  4 |  Thr, Oct 30    |              | - |
-|  - |  **Week 3**     | -                          | - |
-|  5 |  Tue, Nov  4    |       | - |
-|  6 |  Thr, Nov  6    |  | - |
-|  - |  **Week 4**     | -                          | - |
-|  7 |  Tue, Nov 11    |  | - |
-|  8 |  Thr, Nov 13    |          | - |
-|  - |  **Week 5**     | -                          | - |
-|  9 |  Tue, Nov 18    |        | - |
-| 10 |  Thr, Nov 20    |               | - |
-|  - |  **Week 6**     | -                          | - |
-| 11 |  Tue, Nov 25    |          | - |
-| 12 |  Thr, Nov 27    | **THANKS GIVING**          | - |
-|  - |  **Week 7**     | -                          | - |
-| 13 |  Tue, Dec  2    |    | - |
-| 14 |  Thr, Dec  4    |              | - |
-|  - |  **Week 8**     | -                          | - |
-| 15 |  Tue, Dec  9    |           | - |
-| 16 |  Thr, Dec 11    |         | - |
+|:-----:|:------------:|:--------------------------:|:----------:|:---:|
+|  - |  **Week 1**     | Swift.                     | -          | -   |
+|  1 |  Tue, Oct 21    |              |  |  -   |
+|  2 |  Thr, Oct 23    |               |  | -   |
+|  - |  **Week 2**     | -                          | - | -   |
+|  3 |  Tue, Oct 28    |               | - | -   |
+|  4 |  Thr, Oct 30    |              | - | -   |
+|  - |  **Week 3**     | -                          | - | -   |
+|  5 |  Tue, Nov  4    |       | - | -   |
+|  6 |  Thr, Nov  6    |  | - | -   |
+|  - |  **Week 4**     | -                          | - | -   |
+|  7 |  Tue, Nov 11    |  | - | -   |
+|  8 |  Thr, Nov 13    |          | - | -   |
+|  - |  **Week 5**     | -                          | - | -   |
+|  9 |  Tue, Nov 18    |        | - | -   |
+| 10 |  Thr, Nov 20    |               | - | -   |
+|  - |  **Week 6**     | -                          | - | -   |
+| 11 |  Tue, Nov 25    |          | - | -   |
+| 12 |  Thr, Nov 27    | **THANKS GIVING**          | - | -   |
+|  - |  **Week 7**     | -                          | - | -   |
+| 13 |  Tue, Dec  2    |    | - | -   |
+| 14 |  Thr, Dec  4    |              | - | -   |
+|  - |  **Week 8**     | -                          | - | -   |
+| 15 |  Tue, Dec  9    |           | - | -   |
+| 16 |  Thr, Dec 11    |         | - | -   |
 
 
 
@@ -72,8 +55,6 @@ Tutorials - Complete three of these
 - SwiftUI Habitual https://github.com/Tech-at-DU/Habitual-SwiftUI
 
 Final project - Your app idea due end of term
-
-
 
 <!-- | Class |     Date     |          Topics            | Assignment |
 |:-----:|:------------:|:--------------------------:|:---:|
@@ -162,15 +143,19 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 <!-- - [make.sc/library](http://make.sc/library) -->
 - [Inclusive Design](https://developer.apple.com/design/human-interface-guidelines/inclusion/overview)
 
-<!-- 
-## Make School Course Policies
+## Course Description
 
-- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
-- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
-- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
-- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
-- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
-- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
-- [Online Learning Tutorial](https://make.sc/online-learning-tutorial) - How to succeed in online learning at Make School
-- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students -->
+This course covers mobile application development in iOS using Swift. You will learn how to build iOS applications using AutoLayout, UIKit, and the MVC architecture.
+
+## Prerequisites:
+
+[ACS 1410](https://github.com/Tech-at-DU/ACS-1410-Introduction-to-Swift)
+
+## Learning Outcomes
+
+By the end of the course, you will be able to ...
+
+1. Build an app using UIKit components including: UIViews, UIViewControllers, UITableViews, UICollectionViews and custom classes.
+1. Apply AutoLayout to achieve a good distribution of elements in different screen sizes and orientations.
+1. Implement MVC and understand the separation of concerns for each component.
+1. Pass information between view controllers & handle navigation.

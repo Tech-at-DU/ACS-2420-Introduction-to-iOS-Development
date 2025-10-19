@@ -8,7 +8,7 @@
 
 | Class |     Date     |          Topics            | Assignment | Due |
 |:-----:|:------------:|:--------------------------:|:----------:|:---:|
-|  - |  **Week 1**     | Swift.                     | -          | -   |
+|  - |  **Week 1**     | Swift                      | -          | -   |
 |  1 |  Tue, Oct 21    | -                          | -          | -   |
 |  2 |  Thr, Oct 23    | -                          | -          | -   |
 |  - |  **Week 2**     | -                          | -          | -   |
@@ -33,10 +33,7 @@
 | 15 |  Tue, Dec  9    | -                          | -          | -   |
 | 16 |  Thr, Dec 11    | -                          | -          | -   |
 
-
-
-Playgrounds - One each week (in class?)
-
+**Playgrounds** - One each week (In class)
 - Vars, types, functions https://github.com/Tech-at-DU/swift-lab1
 - Optionals and Conditionals https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-2
 - Structs and Enums https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-4
@@ -46,7 +43,7 @@ Playgrounds - One each week (in class?)
 - Swift Review problems https://github.com/Tech-at-DU/Swift-Review-Problems
 - OOP RPG https://github.com/Tech-at-DU/oop-rpg
 
-Tutorials - Complete three of these
+**Tutorials** - Complete three of these
 - Magic 8 Ball https://github.com/Tech-at-DU/Magic-8Ball-Swift4
 - Tip Calc https://github.com/Tech-at-DU/Tip-Calculator-Swift
 - SwiftUI calc https://github.com/Tech-at-DU/SwiftUI_Calculator-Tutorial
@@ -54,7 +51,7 @@ Tutorials - Complete three of these
 - SwiftUI Botshop https://github.com/Tech-at-DU/Botshop-SwiftUI-Tutorial
 - SwiftUI Habitual https://github.com/Tech-at-DU/Habitual-SwiftUI
 
-Final project - Your app idea due end of term
+**Final project** - Your app idea due end of term
 
 <!-- | Class |     Date     |          Topics            | Assignment |
 |:-----:|:------------:|:--------------------------:|:---:|

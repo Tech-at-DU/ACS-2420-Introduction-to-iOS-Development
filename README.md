@@ -23,7 +23,7 @@ By the end of the course, you will be able to ...
 
 **Class Times:** Tuesday, Thursday 1:00 PM to 3:45 PM
 
-| Class |     Date     |          Topics            | Assignment |
+| Class |     Date     |          Topics            | Assignment | Due |
 |:-----:|:------------:|:--------------------------:|:---:|
 |  - |  **Week 1**     | -                          | - |
 |  1 |  Tue, Oct 21    |              |  |

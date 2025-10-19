@@ -25,6 +25,58 @@ By the end of the course, you will be able to ...
 
 | Class |     Date     |          Topics            | Assignment |
 |:-----:|:------------:|:--------------------------:|:---:|
+|  - |  **Week 1**     | -                          | - |
+|  1 |  Tue, Oct 21    |              |  |
+|  2 |  Thr, Oct 23    |               |  |
+|  - |  **Week 2**     | -                          | - |
+|  3 |  Tue, Oct 28    |               | - |
+|  4 |  Thr, Oct 30    |              | - |
+|  - |  **Week 3**     | -                          | - |
+|  5 |  Tue, Nov  4    |       | - |
+|  6 |  Thr, Nov  6    |  | - |
+|  - |  **Week 4**     | -                          | - |
+|  7 |  Tue, Nov 11    |  | - |
+|  8 |  Thr, Nov 13    |          | - |
+|  - |  **Week 5**     | -                          | - |
+|  9 |  Tue, Nov 18    |        | - |
+| 10 |  Thr, Nov 20    |               | - |
+|  - |  **Week 6**     | -                          | - |
+| 11 |  Tue, Nov 25    |          | - |
+| 12 |  Thr, Nov 27    | **THANKS GIVING**          | - |
+|  - |  **Week 7**     | -                          | - |
+| 13 |  Tue, Dec  2    |    | - |
+| 14 |  Thr, Dec  4    |              | - |
+|  - |  **Week 8**     | -                          | - |
+| 15 |  Tue, Dec  9    |           | - |
+| 16 |  Thr, Dec 11    |         | - |
+
+
+
+Playgrounds - One each week (in class?)
+
+- Vars, types, functions https://github.com/Tech-at-DU/swift-lab1
+- Optionals and Conditionals https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-2
+- Structs and Enums https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-4
+- Swift Classes https://github.com/Tech-at-DU/Swift-Classes
+- Conditionals https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
+- intro conditionals https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
+- Swift Review problems https://github.com/Tech-at-DU/Swift-Review-Problems
+- OOP RPG https://github.com/Tech-at-DU/oop-rpg
+
+Tutorials - Complete three of these
+- Magic 8 Ball https://github.com/Tech-at-DU/Magic-8Ball-Swift4
+- Tip Calc https://github.com/Tech-at-DU/Tip-Calculator-Swift
+- SwiftUI calc https://github.com/Tech-at-DU/SwiftUI_Calculator-Tutorial
+- SwiftUI Todo List https://github.com/Tech-at-DU/SwiftUI-Todo-List-tutorial
+- SwiftUI Botshop https://github.com/Tech-at-DU/Botshop-SwiftUI-Tutorial
+- SwiftUI Habitual https://github.com/Tech-at-DU/Habitual-SwiftUI
+
+Final project - Your app idea due end of term
+
+
+
+<!-- | Class |     Date     |          Topics            | Assignment |
+|:-----:|:------------:|:--------------------------:|:---:|
 |  - |  Week 1         | -                          | - |
 |  1 |  Tue, Oct 21    | [Swift Review]             | [OOP RPG] |
 |  2 |  Thr, Oct 23    | [Constraints]              | [Habitual] |
@@ -48,7 +100,7 @@ By the end of the course, you will be able to ...
 | 14 |  Thr, Dec  4    | [Animations]               | - |
 |  - |  Week 8         | -                          | - |
 | 15 |  Tue, Dec  9    | Final Assessment           | - |
-| 16 |  Thr, Dec 11    | Final Presentation         | - |
+| 16 |  Thr, Dec 11    | Final Presentation         | - | -->
 
 
 [Swift Review]: Lessons/00-Swift-Review/README.md

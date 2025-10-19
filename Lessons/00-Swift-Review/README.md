@@ -6,7 +6,7 @@
 
 ### 🌐 Course Context
 
-Welcome to ACS 2420! This course introduces you to iOS development using Swift and Xcode. You'll learn programming fundamentals, build modern iOS apps using SwiftUI, and gain exposure to UIKit and Storyboards.
+Welcome to ACS 2420! This course introduces you to iOS development using Swift (Apple's Programming Language) and Xcode. You'll learn Swift programming fundamentals, build modern iOS apps using SwiftUI, and gain exposure to UIKit and Storyboards.
 
 In this first lesson, we'll focus on the **Swift language**.
 
@@ -39,9 +39,11 @@ By the end of this lesson, you should be able to:
 > 💡 **Note on Type Inference**: In Swift, the type of a variable can often be inferred from the value you assign to it. This means writing `var x = 10` is typically preferred over `var x: Int = 10`, unless you need to be explicit for clarity or documentation.
 
 ```swift
+// Define a variable
 var city: String = "San Francisco"
 city = "Los Angeles"
 
+// Define a constant
 let state: String = "California"
 // state = "Nevada" // Error: Cannot change a constant
 ```

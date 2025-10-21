@@ -6,42 +6,52 @@
 
 **Class Times:** Tuesday, Thursday 1:00 PM to 3:45 PM
 
-| Class |     Date     |          Topics            | Assignment | Due |
-|:-----:|:------------:|:--------------------------:|:----------:|:---:|
-|  - |  **Week 1**     | Swift                      | -          | -   |
-|  1 |  Tue, Oct 21    | -                          | -          | -   |
-|  2 |  Thr, Oct 23    | -                          | -          | -   |
-|  - |  **Week 2**     | -                          | -          | -   |
-|  3 |  Tue, Oct 28    | -                          | -          | -   |
-|  4 |  Thr, Oct 30    | -                          | -          | -   |
-|  - |  **Week 3**     | -                          | -          | -   |
-|  5 |  Tue, Nov  4    | -                          | -          | -   |
-|  6 |  Thr, Nov  6    | -                          | -          | -   |
-|  - |  **Week 4**     | -                          | -          | -   |
-|  7 |  Tue, Nov 11    | -                          | -          | -   |
-|  8 |  Thr, Nov 13    | -                          | -          | -   |
-|  - |  **Week 5**     | -                          | -          | -   |
-|  9 |  Tue, Nov 18    | -                          | -          | -   |
-| 10 |  Thr, Nov 20    | -                          | -          | -   |
-|  - |  **Week 6**     | -                          | -          | -   |
-| 11 |  Tue, Nov 25    | -                          | -          | -   |
-| 12 |  Thr, Nov 27    | **THANKS GIVING**          | -          | -   |
-|  - |  **Week 7**     | -                          | -          | -   |
-| 13 |  Tue, Dec  2    | -                          | -          | -   |
-| 14 |  Thr, Dec  4    | -                          | -          | -   |
-|  - |  **Week 8**     | -                          | -          | -   |
-| 15 |  Tue, Dec  9    | -                          | -          | -   |
-| 16 |  Thr, Dec 11    | -                          | -          | -   |
+| Class |     Date     | Topics            | Assignment | Due |
+|:-----:|:------------:|:-----------------:|:----------:|:---:|
+|  - |  **Week 1**     | Intro to Swift    | -          | -   |
+|  1 |  Tue, Oct 21    | -                 | [Vars, types, functions] [Magic 8 Ball] | -   |
+|  2 |  Thr, Oct 23    | -                 | [Optionals and Conditionals] | [Vars, types, functions] |
+|  - |  **Week 2**     | UIKit             | -          | -   |
+|  3 |  Tue, Oct 28    | -                 | [intro conditionals] [Tip Calc] | [Optionals and Conditionals] [Magic 8 Ball] |
+|  4 |  Thr, Oct 30    | -                 | [Conditionals] | [intro conditionals] |
+|  - |  **Week 3**     | SwiftUI.          | -          | -   |
+|  5 |  Tue, Nov  4    | -                 | [Structs and Enums] | [Conditionals] [Tip Calc] |
+|  6 |  Thr, Nov  6    | -                 | [Swift Classes] | [Structs and Enums] |
+|  - |  **Week 4**     | Collections       | -          | -   |
+|  7 |  Tue, Nov 11    | -                 | [Swift Review problems] [SwiftUI calc] | [Swift Classes] |
+|  8 |  Thr, Nov 13    | -                 | [OOP RPG] | [Swift Review problems] |
+|  - |  **Week 5**     | -                 | -          | -   |
+|  9 |  Tue, Nov 18    | -                 | [SwiftUI Todo List] | [Swift Review problems] [SwiftUI calc] |
+| 10 |  Thr, Nov 20    | -                 | -          | [OOP RPG] |
+|  - |  **Week 6**     | -                 | -          | -   |
+| 11 |  Tue, Nov 25    | -                 | [Your App Idea] | [SwiftUI Todo List] |
+| 12 |  Thr, Nov 27    | **THANKS GIVING** | -          | -   |
+|  - |  **Week 7**     | -                 | -          | -   |
+| 13 |  Tue, Dec  2    | -                 | -          | -   |
+| 14 |  Thr, Dec  4    | -                 | -          | -   |
+|  - |  **Week 8**     | -                 | -          | -   |
+| 15 |  Tue, Dec  9    | -                 | -          | -   |
+| 16 |  Thr, Dec 11    | -                 | -          | -   |
 
 **Playgrounds** - One each week (In class)
-- Vars, types, functions https://github.com/Tech-at-DU/swift-lab1
-- Optionals and Conditionals https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-2
-- Structs and Enums https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-4
-- Swift Classes https://github.com/Tech-at-DU/Swift-Classes
-- Conditionals https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
-- intro conditionals https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
-- Swift Review problems https://github.com/Tech-at-DU/Swift-Review-Problems
-- OOP RPG https://github.com/Tech-at-DU/oop-rpg
+1. Vars, types, functions https://github.com/Tech-at-DU/swift-lab1
+2. Optionals and Conditionals https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-2
+3. Structs and Enums https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-4
+4. Swift Classes https://github.com/Tech-at-DU/Swift-Classes
+5. Conditionals https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
+6. intro conditionals https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
+7. Swift Review problems https://github.com/Tech-at-DU/Swift-Review-Problems
+8. OOP RPG https://github.com/Tech-at-DU/oop-rpg
+
+<!-- Playgrounds -->
+[Vars, types, functions]: https://github.com/Tech-at-DU/swift-lab1
+[Optionals and Conditionals]: https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-2
+[intro conditionals]: https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
+[Conditionals]: https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
+[Structs and Enums]: https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-4
+[Swift Classes]: https://github.com/Tech-at-DU/Swift-Classes
+[Swift Review problems]; https://github.com/Tech-at-DU/Swift-Review-Problems
+[OOP RPG]: https://github.com/Tech-at-DU/oop-rpg
 
 **Tutorials** - Complete three of these
 - Magic 8 Ball https://github.com/Tech-at-DU/Magic-8Ball-Swift4
@@ -50,6 +60,13 @@
 - SwiftUI Todo List https://github.com/Tech-at-DU/SwiftUI-Todo-List-tutorial
 - SwiftUI Botshop https://github.com/Tech-at-DU/Botshop-SwiftUI-Tutorial
 - SwiftUI Habitual https://github.com/Tech-at-DU/Habitual-SwiftUI
+
+[Magic 8 Ball]: https://github.com/Tech-at-DU/Magic-8Ball-Swift4
+[Tip Calc]: https://github.com/Tech-at-DU/Tip-Calculator-Swift
+[SwiftUI calc]: https://github.com/Tech-at-DU/SwiftUI_Calculator-Tutorial
+[SwiftUI Todo List]: https://github.com/Tech-at-DU/SwiftUI-Todo-List-tutorial
+[SwiftUI Botshop]: https://github.com/Tech-at-DU/Botshop-SwiftUI-Tutorial
+[SwiftUI Habitual]: https://github.com/Tech-at-DU/Habitual-SwiftUI
 
 **Final project** - Your app idea due end of term
 

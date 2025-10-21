@@ -18,10 +18,10 @@
 |  5 |  Tue, Nov  4    | -                 | [Structs and Enums] | [Conditionals] [Tip Calc] |
 |  6 |  Thr, Nov  6    | -                 | [Swift Classes] | [Structs and Enums] |
 |  - |  **Week 4**     | Collections       | -          | -   |
-|  7 |  Tue, Nov 11    | -                 | [Swift Review problems] [SwiftUI calc] | [Swift Classes] |
-|  8 |  Thr, Nov 13    | -                 | [OOP RPG] | [Swift Review problems] |
+|  7 |  Tue, Nov 11    | -                 | [Swift Review Problems] [SwiftUI calc] | [Swift Classes] |
+|  8 |  Thr, Nov 13    | -                 | [OOP RPG] | [Swift Review Problems] |
 |  - |  **Week 5**     | -                 | -          | -   |
-|  9 |  Tue, Nov 18    | -                 | [SwiftUI Todo List] | [Swift Review problems] [SwiftUI calc] |
+|  9 |  Tue, Nov 18    | -                 | [SwiftUI Todo List] | [SwiftUI calc] |
 | 10 |  Thr, Nov 20    | -                 | -          | [OOP RPG] |
 |  - |  **Week 6**     | -                 | -          | -   |
 | 11 |  Tue, Nov 25    | -                 | [Your App Idea] | [SwiftUI Todo List] |
@@ -50,7 +50,7 @@
 [Conditionals]: https://github.com/Tech-at-DU/Intro-Conditionals-Swift-Playground
 [Structs and Enums]: https://github.com/Tech-at-DU/ACS-1410-Swift-Lab-4
 [Swift Classes]: https://github.com/Tech-at-DU/Swift-Classes
-[Swift Review problems]; https://github.com/Tech-at-DU/Swift-Review-Problems
+[Swift Review Problems]: https://github.com/Tech-at-DU/Swift-Review-Problems
 [OOP RPG]: https://github.com/Tech-at-DU/oop-rpg
 
 **Tutorials** - Complete three of these

@@ -9,16 +9,16 @@
 | Class |     Date     | Topics            | Assignment | Due |
 |:-----:|:------------:|:-----------------:|:----------:|:---:|
 |  - |  **Week 1**     | Intro to Swift    | -          | -   |
-|  1 |  Tue, Oct 21    | -                 | [Vars, types, functions] [Magic 8 Ball] | -   |
+|  1 |  Tue, Oct 21    | -                 | [Vars, types, functions] - [Magic 8 Ball] | -   |
 |  2 |  Thr, Oct 23    | -                 | [Optionals and Conditionals] | [Vars, types, functions] |
 |  - |  **Week 2**     | UIKit             | -          | -   |
-|  3 |  Tue, Oct 28    | -                 | [intro conditionals] [Tip Calc] | [Optionals and Conditionals] [Magic 8 Ball] |
+|  3 |  Tue, Oct 28    | -                 | [intro conditionals] - [Tip Calc] | [Optionals and Conditionals] [Magic 8 Ball] |
 |  4 |  Thr, Oct 30    | -                 | [Conditionals] | [intro conditionals] |
 |  - |  **Week 3**     | SwiftUI.          | -          | -   |
 |  5 |  Tue, Nov  4    | -                 | [Structs and Enums] | [Conditionals] [Tip Calc] |
 |  6 |  Thr, Nov  6    | -                 | [Swift Classes] | [Structs and Enums] |
 |  - |  **Week 4**     | Collections       | -          | -   |
-|  7 |  Tue, Nov 11    | -                 | [Swift Review Problems] [SwiftUI calc] | [Swift Classes] |
+|  7 |  Tue, Nov 11    | -                 | [Swift Review Problems] - [SwiftUI calc] | [Swift Classes] |
 |  8 |  Thr, Nov 13    | -                 | [OOP RPG] | [Swift Review Problems] |
 |  - |  **Week 5**     | -                 | -          | -   |
 |  9 |  Tue, Nov 18    | -                 | [SwiftUI Todo List] | [SwiftUI calc] |
